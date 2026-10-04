@@ -14,10 +14,12 @@ const {
   verifyPayment,
   decideRegistration,
 } = require("./validators");
+const studentRepository = require("./studentRepository");
+const { DuplicateStudentError, StudentNotFoundError } = studentRepository;
 
 const upload = multer({ storage: multer.memoryStorage() });
 
-function createApp() {
+function createApp(pool) {
   const app = express();
   app.use(cors());
   app.use(express.json());
@@ -41,9 +43,9 @@ function createApp() {
     next();
   }
 
-  // --- R1-R4: registration / login ----------------------------------------
+  // --- R1-R4: registration / login (student records live in Postgres) -----
 
-  app.post("/api/register", (req, res) => {
+  app.post("/api/register", async (req, res) => {
     const { studentId, password } = req.body || {};
 
     const idCheck = validateStudentId(studentId);
@@ -52,16 +54,22 @@ function createApp() {
     const passwordCheck = validatePassword(password);
     if (!passwordCheck.valid) return res.status(400).json({ error: passwordCheck.error });
 
-    const { students } = getState();
-    if (students.has(studentId)) {
-      return res.status(409).json({ error: "Student ID already registered" });
+    try {
+      await studentRepository.createStudent(pool, {
+        studentId,
+        password,
+        name: req.body.name || "",
+      });
+      return res.status(201).json({ studentId });
+    } catch (err) {
+      if (err instanceof DuplicateStudentError) {
+        return res.status(409).json({ error: "Student ID already registered" });
+      }
+      return res.status(500).json({ error: "Failed to register student" });
     }
-
-    students.set(studentId, { studentId, password, name: req.body.name || "" });
-    return res.status(201).json({ studentId });
   });
 
-  app.post("/api/login", (req, res) => {
+  app.post("/api/login", async (req, res) => {
     const { studentId, password } = req.body || {};
 
     const idCheck = validateStudentId(studentId);
@@ -70,8 +78,8 @@ function createApp() {
     const passwordCheck = validatePassword(password);
     if (!passwordCheck.valid) return res.status(400).json({ error: passwordCheck.error });
 
-    const student = getState().students.get(studentId);
-    if (!student || student.password !== password) {
+    const student = await studentRepository.authenticateStudent(pool, studentId, password);
+    if (!student) {
       return res.status(401).json({ error: "Invalid Student ID or password" });
     }
 
@@ -224,6 +232,82 @@ function createApp() {
   });
 
   app.get("/api/health", (req, res) => res.status(200).json({ status: "ok" }));
+
+  // --- Lab 5: Student CRUD (add/view/list/update/delete), Postgres-backed --
+
+  app.post("/api/students", async (req, res) => {
+    const { studentId, name, email, program, password } = req.body || {};
+
+    const idCheck = validateStudentId(studentId);
+    if (!idCheck.valid) return res.status(400).json({ error: idCheck.error });
+    if (!name) return res.status(400).json({ error: "Name is required" });
+
+    try {
+      const student = await studentRepository.createStudent(pool, {
+        studentId,
+        name,
+        email,
+        program,
+        password,
+      });
+      return res.status(201).json(student);
+    } catch (err) {
+      if (err instanceof DuplicateStudentError) {
+        return res.status(409).json({ error: err.message });
+      }
+      return res.status(500).json({ error: "Failed to create student" });
+    }
+  });
+
+  app.get("/api/students", async (req, res) => {
+    const students = await studentRepository.listStudents(pool);
+    return res.status(200).json(students);
+  });
+
+  app.get("/api/students/:studentId", async (req, res) => {
+    const idCheck = validateStudentId(req.params.studentId);
+    if (!idCheck.valid) return res.status(400).json({ error: idCheck.error });
+
+    const student = await studentRepository.getStudent(pool, req.params.studentId);
+    if (!student) return res.status(404).json({ error: "Student not found" });
+    return res.status(200).json(student);
+  });
+
+  app.put("/api/students/:studentId", async (req, res) => {
+    const idCheck = validateStudentId(req.params.studentId);
+    if (!idCheck.valid) return res.status(400).json({ error: idCheck.error });
+
+    const { name, email, program, password } = req.body || {};
+    try {
+      const student = await studentRepository.updateStudent(pool, req.params.studentId, {
+        name,
+        email,
+        program,
+        password,
+      });
+      return res.status(200).json(student);
+    } catch (err) {
+      if (err instanceof StudentNotFoundError) {
+        return res.status(404).json({ error: err.message });
+      }
+      return res.status(500).json({ error: "Failed to update student" });
+    }
+  });
+
+  app.delete("/api/students/:studentId", async (req, res) => {
+    const idCheck = validateStudentId(req.params.studentId);
+    if (!idCheck.valid) return res.status(400).json({ error: idCheck.error });
+
+    try {
+      await studentRepository.deleteStudent(pool, req.params.studentId);
+      return res.status(204).send();
+    } catch (err) {
+      if (err instanceof StudentNotFoundError) {
+        return res.status(404).json({ error: err.message });
+      }
+      return res.status(500).json({ error: "Failed to delete student" });
+    }
+  });
 
   return app;
 }

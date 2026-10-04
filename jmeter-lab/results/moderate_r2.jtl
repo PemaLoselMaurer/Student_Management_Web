@@ -1,0 +1,974 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1791115078589,281,00 Login,200,OK,Student Users 1-1,text,true,,372,226,4,4,http://localhost:4000/api/login,281,0,13
+1791115078940,66,00 Login,200,OK,Student Users 1-2,text,true,,372,226,5,5,http://localhost:4000/api/login,66,0,1
+1791115079283,67,00 Login,200,OK,Student Users 1-3,text,true,,373,226,5,5,http://localhost:4000/api/login,67,0,0
+1791115079674,67,00 Login,200,OK,Student Users 1-4,text,true,,373,226,6,6,http://localhost:4000/api/login,67,0,1
+1791115079950,1,01 List Students,200,OK,Student Users 1-1,text,true,,4064,160,6,6,http://localhost:4000/api/students,1,0,0
+1791115080390,1,01 List Students,200,OK,Student Users 1-2,text,true,,4064,160,7,7,http://localhost:4000/api/students,1,0,0
+1791115080486,80,00 Login,200,OK,Student Users 1-5,text,true,,372,226,8,8,http://localhost:4000/api/login,80,0,1
+1791115081073,70,00 Login,200,OK,Student Users 1-7,text,true,,375,226,9,9,http://localhost:4000/api/login,70,0,1
+1791115081132,12,01 List Students,200,OK,Student Users 1-3,text,true,,4064,160,9,9,http://localhost:4000/api/students,12,0,0
+1791115081294,2,03 View Student by ID,200,OK,Student Users 1-1,text,true,,455,169,9,9,http://localhost:4000/api/students/20250001,1,0,0
+1791115081384,76,00 Login,200,OK,Student Users 1-6,text,true,,376,226,9,9,http://localhost:4000/api/login,76,0,0
+1791115081619,2,01 List Students,200,OK,Student Users 1-4,text,true,,4064,160,10,10,http://localhost:4000/api/students,2,0,0
+1791115082030,68,00 Login,200,OK,Student Users 1-9,text,true,,373,226,11,11,http://localhost:4000/api/login,68,0,1
+1791115082078,21,01 List Students,200,OK,Student Users 1-5,text,true,,4064,160,11,11,http://localhost:4000/api/students,21,0,0
+1791115082137,2,03 View Student by ID,200,OK,Student Users 1-2,text,true,,455,169,11,11,http://localhost:4000/api/students/20250002,2,0,0
+1791115082174,56,00 Login,200,OK,Student Users 1-8,text,true,,374,226,11,11,http://localhost:4000/api/login,56,0,1
+1791115082410,2,01 List Students,200,OK,Student Users 1-7,text,true,,4064,160,11,11,http://localhost:4000/api/students,2,0,0
+1791115082529,70,00 Login,200,OK,Student Users 1-10,text,true,,376,226,12,12,http://localhost:4000/api/login,70,0,2
+1791115082534,66,01 List Students,200,OK,Student Users 1-6,text,true,,4064,160,12,12,http://localhost:4000/api/students,66,0,0
+1791115082639,2,03 View Student by ID,200,OK,Student Users 1-3,text,true,,456,169,12,12,http://localhost:4000/api/students/20250003,2,0,0
+1791115082866,0,06 Payment Status (auth),200,OK,Student Users 1-1,text,true,,269,238,12,12,http://localhost:4000/api/payment/status,0,0,0
+1791115082974,2,03 View Student by ID,200,OK,Student Users 1-4,text,true,,456,169,12,12,http://localhost:4000/api/students/20250004,2,0,0
+1791115083393,57,00 Login,200,OK,Student Users 1-11,text,true,,371,226,13,13,http://localhost:4000/api/login,57,0,1
+1791115083466,1,03 View Student by ID,200,OK,Student Users 1-5,text,true,,455,169,13,13,http://localhost:4000/api/students/20250005,1,0,0
+1791115083727,1,01 List Students,200,OK,Student Users 1-10,text,true,,4064,160,14,14,http://localhost:4000/api/students,1,0,0
+1791115083902,0,06 Payment Status (auth),200,OK,Student Users 1-2,text,true,,269,238,14,14,http://localhost:4000/api/payment/status,0,0,0
+1791115083926,3,01 List Students,200,OK,Student Users 1-9,text,true,,4064,160,14,14,http://localhost:4000/api/students,2,0,0
+1791115084018,1,03 View Student by ID,200,OK,Student Users 1-7,text,true,,458,169,15,15,http://localhost:4000/api/students/20250007,1,0,0
+1791115084133,1,06 Payment Status (auth),200,OK,Student Users 1-3,text,true,,269,238,15,15,http://localhost:4000/api/payment/status,1,0,0
+1791115084203,2,01 List Students,200,OK,Student Users 1-8,text,true,,4064,160,15,15,http://localhost:4000/api/students,2,0,0
+1791115084270,1,06 Payment Status (auth),200,OK,Student Users 1-4,text,true,,269,238,15,15,http://localhost:4000/api/payment/status,1,0,0
+1791115084284,56,00 Login,200,OK,Student Users 1-12,text,true,,376,226,15,15,http://localhost:4000/api/login,56,0,2
+1791115084386,67,00 Login,200,OK,Student Users 1-13,text,true,,374,226,15,15,http://localhost:4000/api/login,67,0,1
+1791115084522,1,03 View Student by ID,200,OK,Student Users 1-6,text,true,,459,169,16,16,http://localhost:4000/api/students/20250006,1,0,0
+1791115084734,75,00 Login,200,OK,Student Users 1-14,text,true,,373,226,16,16,http://localhost:4000/api/login,75,0,1
+1791115084754,65,02 Create Student,201,Created,Student Users 1-1,text,true,,459,292,16,16,http://localhost:4000/api/students,65,0,0
+1791115085114,2,03 View Student by ID,200,OK,Student Users 1-9,text,true,,456,169,17,17,http://localhost:4000/api/students/20250009,1,0,0
+1791115085134,4,02 Create Student,201,Created,Student Users 1-2,text,true,,464,297,17,17,http://localhost:4000/api/students,4,0,0
+1791115085147,1,01 List Students,200,OK,Student Users 1-11,text,true,,4444,160,17,17,http://localhost:4000/api/students,1,0,0
+1791115085202,57,00 Login,200,OK,Student Users 1-15,text,true,,372,226,17,17,http://localhost:4000/api/login,57,0,0
+1791115085440,2,06 Payment Status (auth),200,OK,Student Users 1-5,text,true,,269,238,17,17,http://localhost:4000/api/payment/status,2,0,0
+1791115085545,2,03 View Student by ID,200,OK,Student Users 1-8,text,true,,457,169,18,18,http://localhost:4000/api/students/20250008,2,0,0
+1791115085584,1,03 View Student by ID,200,OK,Student Users 1-10,text,true,,459,169,18,18,http://localhost:4000/api/students/20250010,1,0,0
+1791115085597,4,02 Create Student,201,Created,Student Users 1-3,text,true,,457,290,18,18,http://localhost:4000/api/students,4,0,0
+1791115085605,1,02 Create Student,201,Created,Student Users 1-4,text,true,,462,295,18,18,http://localhost:4000/api/students,1,0,0
+1791115085881,0,06 Payment Status (auth),200,OK,Student Users 1-7,text,true,,269,238,18,18,http://localhost:4000/api/payment/status,0,0,0
+1791115086037,56,00 Login,200,OK,Student Users 1-16,text,true,,376,226,19,19,http://localhost:4000/api/login,56,0,1
+1791115086140,1,01 List Students,200,OK,Student Users 1-14,text,true,,4819,160,19,19,http://localhost:4000/api/students,1,0,0
+1791115086214,2,01 List Students,200,OK,Student Users 1-12,text,true,,4819,160,19,19,http://localhost:4000/api/students,2,0,0
+1791115086303,1,03 View Student by ID,200,OK,Student Users 1-11,text,true,,454,169,19,19,http://localhost:4000/api/students/20250011,1,0,0
+1791115086367,2,04 View Created Student,200,OK,Student Users 1-1,text,true,,454,169,19,19,http://localhost:4000/api/students/90000001,2,0,0
+1791115086417,2,01 List Students,200,OK,Student Users 1-13,text,true,,4819,160,19,19,http://localhost:4000/api/students,2,0,0
+1791115086421,0,06 Payment Status (auth),200,OK,Student Users 1-6,text,true,,269,238,19,19,http://localhost:4000/api/payment/status,0,0,0
+1791115086442,56,00 Login,200,OK,Student Users 1-17,text,true,,375,226,20,20,http://localhost:4000/api/login,56,0,1
+1791115086707,2,04 View Created Student,200,OK,Student Users 1-2,text,true,,459,169,20,20,http://localhost:4000/api/students/90000002,2,0,0
+1791115086775,1,04 View Created Student,200,OK,Student Users 1-4,text,true,,457,169,20,20,http://localhost:4000/api/students/90000004,1,0,0
+1791115086809,2,06 Payment Status (auth),200,OK,Student Users 1-10,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,2,0,0
+1791115086811,2,01 List Students,200,OK,Student Users 1-15,text,true,,4819,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115086826,1,06 Payment Status (auth),200,OK,Student Users 1-9,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115087041,1,06 Payment Status (auth),200,OK,Student Users 1-8,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115087084,56,00 Login,200,OK,Student Users 1-18,text,true,,373,226,20,20,http://localhost:4000/api/login,56,0,1
+1791115087234,59,00 Login,200,OK,Student Users 1-19,text,true,,371,226,20,20,http://localhost:4000/api/login,59,0,2
+1791115087379,4,02 Create Student,201,Created,Student Users 1-5,text,true,,468,301,20,20,http://localhost:4000/api/students,4,0,0
+1791115087405,2,02 Create Student,201,Created,Student Users 1-7,text,true,,459,292,20,20,http://localhost:4000/api/students,2,0,0
+1791115087516,1,01 List Students,200,OK,Student Users 1-17,text,true,,5202,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115087539,2,04 View Created Student,200,OK,Student Users 1-3,text,true,,452,169,20,20,http://localhost:4000/api/students/90000003,2,0,0
+1791115087725,3,01 List Students,200,OK,Student Users 1-16,text,true,,5202,160,20,20,http://localhost:4000/api/students,3,0,0
+1791115087758,85,00 Login,200,OK,Student Users 1-20,text,true,,376,226,20,20,http://localhost:4000/api/login,85,0,1
+1791115087898,2,03 View Student by ID,200,OK,Student Users 1-12,text,true,,459,169,20,20,http://localhost:4000/api/students/20250012,2,0,0
+1791115087984,1,03 View Student by ID,200,OK,Student Users 1-13,text,true,,457,169,20,20,http://localhost:4000/api/students/20250013,1,0,0
+1791115088053,3,02 Create Student,201,Created,Student Users 1-6,text,true,,453,286,20,20,http://localhost:4000/api/students,3,0,0
+1791115088057,1,05 Update Student,200,OK,Student Users 1-1,text,true,,456,228,20,20,http://localhost:4000/api/students/90000001,1,0,0
+1791115082867,68,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-1,,true,,1369,689,20,20,null,68,5124,0
+1791115088088,1,03 View Student by ID,200,OK,Student Users 1-14,text,true,,456,169,20,20,http://localhost:4000/api/students/20250014,1,0,0
+1791115088182,1,06 Payment Status (auth),200,OK,Student Users 1-11,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115088292,2,03 View Student by ID,200,OK,Student Users 1-15,text,true,,455,169,20,20,http://localhost:4000/api/students/20250015,2,0,0
+1791115088297,3,02 Create Student,201,Created,Student Users 1-10,text,true,,456,289,20,20,http://localhost:4000/api/students,3,0,0
+1791115088304,1,05 Update Student,200,OK,Student Users 1-2,text,true,,466,235,20,20,http://localhost:4000/api/students/90000002,1,0,0
+1791115083903,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-2,,true,,1389,701,20,20,null,7,4396,0
+1791115088326,1,02 Create Student,201,Created,Student Users 1-8,text,true,,466,299,20,20,http://localhost:4000/api/students,1,0,0
+1791115088330,1,01 List Students,200,OK,Student Users 1-18,text,true,,5770,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115088402,3,02 Create Student,201,Created,Student Users 1-9,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115088691,2,05 Update Student,200,OK,Student Users 1-4,text,true,,454,225,20,20,http://localhost:4000/api/students/90000004,2,0,0
+1791115084271,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-4,,true,,1373,689,20,20,null,4,4420,0
+1791115088946,1,01 List Students,200,OK,Student Users 1-19,text,true,,5954,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115089093,1,06 Payment Status (auth),200,OK,Student Users 1-14,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115089171,1,04 View Created Student,200,OK,Student Users 1-7,text,true,,454,169,20,20,http://localhost:4000/api/students/90000007,1,0,0
+1791115089181,1,06 Payment Status (auth),200,OK,Student Users 1-12,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115089243,5,07 Delete Student,204,No Content,Student Users 1-1,,true,,166,191,20,20,http://localhost:4000/api/students/90000001,0,0,0
+1791115089270,1,04 View Created Student,200,OK,Student Users 1-5,text,true,,463,169,20,20,http://localhost:4000/api/students/90000005,1,0,0
+1791115089340,1,01 List Students,200,OK,Student Users 1-20,text,true,,5765,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115089394,1,03 View Student by ID,200,OK,Student Users 1-16,text,true,,459,169,20,20,http://localhost:4000/api/students/20250016,1,0,0
+1791115089414,4,05 Update Student,200,OK,Student Users 1-3,text,true,,450,221,20,20,http://localhost:4000/api/students/90000003,4,0,0
+1791115084134,10,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-3,,true,,1359,680,20,20,null,10,5275,0
+1791115089417,36,03 View Student by ID,200,OK,Student Users 1-17,text,true,,458,169,20,20,http://localhost:4000/api/students/20250017,36,0,0
+1791115089527,1,06 Payment Status (auth),200,OK,Student Users 1-13,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115089533,2,04 View Created Student,200,OK,Student Users 1-9,text,true,,454,169,20,20,http://localhost:4000/api/students/90000009,2,0,0
+1791115089690,1,03 View Student by ID,200,OK,Student Users 1-18,text,true,,456,169,20,20,http://localhost:4000/api/students/20250018,1,0,0
+1791115089791,6,07 Delete Student,204,No Content,Student Users 1-2,,true,,166,191,20,20,http://localhost:4000/api/students/90000002,0,0,0
+1791115089828,1,06 Payment Status (auth),200,OK,Student Users 1-15,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115089911,5,02 Create Student,201,Created,Student Users 1-11,text,true,,457,290,20,20,http://localhost:4000/api/students,4,0,0
+1791115090001,1,04 View Created Student,200,OK,Student Users 1-6,text,true,,448,169,20,20,http://localhost:4000/api/students/90000006,1,0,0
+1791115090105,1,03 View Student by ID,200,OK,Student Users 1-19,text,true,,454,169,20,20,http://localhost:4000/api/students/20250019,1,0,0
+1791115090115,2,04 View Created Student,200,OK,Student Users 1-8,text,true,,461,169,20,20,http://localhost:4000/api/students/90000008,2,0,0
+1791115090218,3,04 View Created Student,200,OK,Student Users 1-10,text,true,,451,169,20,20,http://localhost:4000/api/students/90000010,3,0,0
+1791115090273,1,02 Create Student,201,Created,Student Users 1-14,text,true,,464,297,20,20,http://localhost:4000/api/students,1,0,0
+1791115090297,1,02 Create Student,201,Created,Student Users 1-12,text,true,,465,298,20,20,http://localhost:4000/api/students,1,0,0
+1791115090464,3,07 Delete Student,204,No Content,Student Users 1-4,,true,,166,191,20,20,http://localhost:4000/api/students/90000004,0,0,0
+1791115090717,3,02 Create Student,201,Created,Student Users 1-13,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115090790,8,05 Update Student,200,OK,Student Users 1-5,text,true,,461,233,20,20,http://localhost:4000/api/students/90000005,8,0,0
+1791115085442,13,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-5,,true,,1392,703,20,20,null,13,5345,0
+1791115090886,4,05 Update Student,200,OK,Student Users 1-9,text,true,,459,228,20,20,http://localhost:4000/api/students/90000009,4,0,0
+1791115086827,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-9,,true,,1372,689,20,20,null,9,4055,0
+1791115090905,1,06 Payment Status (auth),200,OK,Student Users 1-17,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115090962,4,02 Create Student,201,Created,Student Users 1-15,text,true,,457,290,20,20,http://localhost:4000/api/students,4,0,0
+1791115090997,1,06 Payment Status (auth),200,OK,Student Users 1-18,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115091099,1,04 View Created Student,200,OK,Student Users 1-11,text,true,,452,169,20,20,http://localhost:4000/api/students/90000011,1,0,0
+1791115091101,0,06 Payment Status (auth),200,OK,Student Users 1-16,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115091120,2,01 List Students,200,OK,Student Users 1-1,text,true,,6322,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115091143,3,05 Update Student,200,OK,Student Users 1-7,text,true,,450,221,20,20,http://localhost:4000/api/students/90000007,3,0,0
+1791115085882,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-7,,true,,1363,682,20,20,null,6,5259,0
+1791115091232,3,05 Update Student,200,OK,Student Users 1-10,text,true,,453,223,20,20,http://localhost:4000/api/students/90000010,3,0,0
+1791115086811,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-10,,true,,1360,681,20,20,null,9,4416,0
+1791115091292,1,05 Update Student,200,OK,Student Users 1-8,text,true,,454,226,20,20,http://localhost:4000/api/students/90000008,1,0,0
+1791115087042,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-8,,true,,1381,694,20,20,null,4,4248,0
+1791115091330,1,03 View Student by ID,200,OK,Student Users 1-20,text,true,,459,169,20,20,http://localhost:4000/api/students/20250020,1,0,0
+1791115091358,7,07 Delete Student,204,No Content,Student Users 1-3,,true,,166,191,20,20,http://localhost:4000/api/students/90000003,0,0,0
+1791115091460,1,04 View Created Student,200,OK,Student Users 1-14,text,true,,459,169,20,20,http://localhost:4000/api/students/90000014,1,0,0
+1791115091553,2,01 List Students,200,OK,Student Users 1-4,text,true,,6130,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115091627,1,01 List Students,200,OK,Student Users 1-2,text,true,,6130,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115091815,3,05 Update Student,200,OK,Student Users 1-6,text,true,,450,223,20,20,http://localhost:4000/api/students/90000006,3,0,0
+1791115086421,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-6,,true,,1351,678,20,20,null,7,5392,0
+1791115091839,1,06 Payment Status (auth),200,OK,Student Users 1-19,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115091906,1,04 View Created Student,200,OK,Student Users 1-12,text,true,,460,169,20,20,http://localhost:4000/api/students/90000012,1,0,0
+1791115092179,1,04 View Created Student,200,OK,Student Users 1-13,text,true,,454,169,20,20,http://localhost:4000/api/students/90000013,1,0,0
+1791115092455,1,02 Create Student,201,Created,Student Users 1-18,text,true,,453,286,20,20,http://localhost:4000/api/students,1,0,0
+1791115092471,1,02 Create Student,201,Created,Student Users 1-17,text,true,,468,301,20,20,http://localhost:4000/api/students,1,0,0
+1791115092492,2,01 List Students,200,OK,Student Users 1-3,text,true,,6509,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115092527,2,07 Delete Student,204,No Content,Student Users 1-5,,true,,166,191,20,20,http://localhost:4000/api/students/90000005,0,0,0
+1791115092613,4,07 Delete Student,204,No Content,Student Users 1-10,,true,,166,191,20,20,http://localhost:4000/api/students/90000010,0,0,0
+1791115092671,2,07 Delete Student,204,No Content,Student Users 1-9,,true,,166,191,20,20,http://localhost:4000/api/students/90000009,0,0,0
+1791115092740,1,03 View Student by ID,200,OK,Student Users 1-4,text,true,,456,169,20,20,http://localhost:4000/api/students/20250003,1,0,0
+1791115092756,1,04 View Created Student,200,OK,Student Users 1-15,text,true,,452,169,20,20,http://localhost:4000/api/students/90000015,1,0,0
+1791115092777,2,02 Create Student,201,Created,Student Users 1-16,text,true,,462,295,20,20,http://localhost:4000/api/students,2,0,0
+1791115092857,2,03 View Student by ID,200,OK,Student Users 1-1,text,true,,455,169,20,20,http://localhost:4000/api/students/20250001,2,0,0
+1791115092908,4,05 Update Student,200,OK,Student Users 1-11,text,true,,454,228,20,20,http://localhost:4000/api/students/90000011,4,0,0
+1791115088183,10,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-11,,true,,1363,687,20,20,null,9,4720,0
+1791115093071,3,07 Delete Student,204,No Content,Student Users 1-7,,true,,166,191,20,20,http://localhost:4000/api/students/90000007,0,0,0
+1791115093115,3,05 Update Student,200,OK,Student Users 1-14,text,true,,466,235,20,20,http://localhost:4000/api/students/90000014,3,0,0
+1791115089094,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-14,,true,,1389,701,20,20,null,5,4020,0
+1791115093160,1,06 Payment Status (auth),200,OK,Student Users 1-20,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115093202,7,07 Delete Student,204,No Content,Student Users 1-8,,true,,166,191,20,20,http://localhost:4000/api/students/90000008,0,0,0
+1791115093289,1,03 View Student by ID,200,OK,Student Users 1-2,text,true,,455,169,20,20,http://localhost:4000/api/students/20250002,1,0,0
+1791115093554,3,05 Update Student,200,OK,Student Users 1-13,text,true,,456,228,20,20,http://localhost:4000/api/students/90000013,3,0,0
+1791115089528,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-13,,true,,1369,689,20,20,null,7,4024,0
+1791115093597,2,05 Update Student,200,OK,Student Users 1-12,text,true,,467,235,20,20,http://localhost:4000/api/students/90000012,2,0,0
+1791115089182,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-12,,true,,1392,702,20,20,null,4,4414,0
+1791115093642,2,02 Create Student,201,Created,Student Users 1-19,text,true,,459,292,20,20,http://localhost:4000/api/students,2,0,0
+1791115093644,1,04 View Created Student,200,OK,Student Users 1-17,text,true,,463,169,20,20,http://localhost:4000/api/students/90000017,1,0,0
+1791115093702,1,07 Delete Student,204,No Content,Student Users 1-6,,true,,166,191,20,20,http://localhost:4000/api/students/90000006,0,0,0
+1791115093718,1,03 View Student by ID,200,OK,Student Users 1-3,text,true,,456,169,20,20,http://localhost:4000/api/students/20250004,1,0,0
+1791115093831,2,01 List Students,200,OK,Student Users 1-5,text,true,,5779,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115093836,1,06 Payment Status (auth),200,OK,Student Users 1-4,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115093855,1,04 View Created Student,200,OK,Student Users 1-16,text,true,,457,169,20,20,http://localhost:4000/api/students/90000016,1,0,0
+1791115093868,1,01 List Students,200,OK,Student Users 1-10,text,true,,5779,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115094028,1,04 View Created Student,200,OK,Student Users 1-18,text,true,,448,169,20,20,http://localhost:4000/api/students/90000018,1,0,0
+1791115094313,4,07 Delete Student,204,No Content,Student Users 1-11,,true,,166,191,20,20,http://localhost:4000/api/students/90000011,0,0,0
+1791115094453,4,07 Delete Student,204,No Content,Student Users 1-14,,true,,166,191,20,20,http://localhost:4000/api/students/90000014,0,0,0
+1791115094504,1,05 Update Student,200,OK,Student Users 1-15,text,true,,450,221,20,20,http://localhost:4000/api/students/90000015,1,0,0
+1791115089829,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-15,,true,,1359,680,20,20,null,6,4672,0
+1791115094606,1,01 List Students,200,OK,Student Users 1-9,text,true,,5391,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115094650,1,06 Payment Status (auth),200,OK,Student Users 1-1,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115094660,1,01 List Students,200,OK,Student Users 1-8,text,true,,5391,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115094674,2,01 List Students,200,OK,Student Users 1-7,text,true,,5391,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115094718,1,02 Create Student,201,Created,Student Users 1-20,text,true,,466,299,20,20,http://localhost:4000/api/students,1,0,0
+1791115094931,5,07 Delete Student,204,No Content,Student Users 1-12,,true,,166,191,20,20,http://localhost:4000/api/students/90000012,0,0,0
+1791115094980,2,03 View Student by ID,200,OK,Student Users 1-5,text,true,,455,169,20,20,http://localhost:4000/api/students/20250005,2,0,0
+1791115095026,1,04 View Created Student,200,OK,Student Users 1-19,text,true,,454,169,20,20,http://localhost:4000/api/students/90000019,1,0,0
+1791115095091,7,07 Delete Student,204,No Content,Student Users 1-13,,true,,166,191,20,20,http://localhost:4000/api/students/90000013,0,0,0
+1791115095191,1,06 Payment Status (auth),200,OK,Student Users 1-3,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115095210,1,06 Payment Status (auth),200,OK,Student Users 1-2,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115095475,3,03 View Student by ID,200,OK,Student Users 1-10,text,true,,459,169,20,20,http://localhost:4000/api/students/20250006,3,0,0
+1791115095512,1,02 Create Student,201,Created,Student Users 1-4,text,true,,457,290,20,20,http://localhost:4000/api/students,1,0,0
+1791115095546,1,05 Update Student,200,OK,Student Users 1-16,text,true,,454,225,20,20,http://localhost:4000/api/students/90000016,1,0,0
+1791115091102,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-16,,true,,1373,689,20,20,null,4,4442,0
+1791115095629,1,01 List Students,200,OK,Student Users 1-6,text,true,,5378,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115095643,4,05 Update Student,200,OK,Student Users 1-17,text,true,,461,233,20,20,http://localhost:4000/api/students/90000017,4,0,0
+1791115090906,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-17,,true,,1392,703,20,20,null,6,4736,0
+1791115095694,2,02 Create Student,201,Created,Student Users 1-1,text,true,,459,292,20,20,http://localhost:4000/api/students,2,0,0
+1791115095873,145,01 List Students,200,OK,Student Users 1-11,text,true,,5563,160,20,20,http://localhost:4000/api/students,145,0,0
+1791115095934,87,05 Update Student,200,OK,Student Users 1-18,text,true,,450,223,20,20,http://localhost:4000/api/students/90000018,87,0,0
+1791115090998,89,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-18,,true,,1351,678,20,20,null,89,4935,0
+1791115095976,81,07 Delete Student,204,No Content,Student Users 1-15,,true,,166,191,20,20,http://localhost:4000/api/students/90000015,0,0,0
+1791115096087,1,01 List Students,200,OK,Student Users 1-14,text,true,,5382,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115096126,2,04 View Created Student,200,OK,Student Users 1-20,text,true,,461,169,20,20,http://localhost:4000/api/students/90000020,2,0,0
+1791115096172,2,03 View Student by ID,200,OK,Student Users 1-9,text,true,,458,169,20,20,http://localhost:4000/api/students/20250007,2,0,0
+1791115096308,3,01 List Students,200,OK,Student Users 1-13,text,true,,5382,160,20,20,http://localhost:4000/api/students,3,0,0
+1791115096324,1,03 View Student by ID,200,OK,Student Users 1-7,text,true,,457,169,20,20,http://localhost:4000/api/students/20250008,1,0,0
+1791115096390,1,06 Payment Status (auth),200,OK,Student Users 1-5,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115096626,2,01 List Students,200,OK,Student Users 1-12,text,true,,5382,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115096643,1,03 View Student by ID,200,OK,Student Users 1-8,text,true,,456,169,20,20,http://localhost:4000/api/students/20250009,1,0,0
+1791115096661,1,03 View Student by ID,200,OK,Student Users 1-6,text,true,,459,169,20,20,http://localhost:4000/api/students/20250010,1,0,0
+1791115096923,1,04 View Created Student,200,OK,Student Users 1-4,text,true,,452,169,20,20,http://localhost:4000/api/students/90000023,1,0,0
+1791115096950,4,07 Delete Student,204,No Content,Student Users 1-16,,true,,166,191,20,20,http://localhost:4000/api/students/90000016,0,0,0
+1791115097013,5,05 Update Student,200,OK,Student Users 1-19,text,true,,450,221,20,20,http://localhost:4000/api/students/90000019,5,0,0
+1791115091840,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-19,,true,,1363,682,20,20,null,8,5171,0
+1791115097068,1,07 Delete Student,204,No Content,Student Users 1-17,,true,,166,191,20,20,http://localhost:4000/api/students/90000017,0,0,0
+1791115097090,1,02 Create Student,201,Created,Student Users 1-3,text,true,,465,298,20,20,http://localhost:4000/api/students,1,0,0
+1791115097094,1,03 View Student by ID,200,OK,Student Users 1-14,text,true,,459,169,20,20,http://localhost:4000/api/students/20250012,1,0,0
+1791115097118,1,01 List Students,200,OK,Student Users 1-15,text,true,,5190,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115097155,3,02 Create Student,201,Created,Student Users 1-2,text,true,,456,289,20,20,http://localhost:4000/api/students,3,0,0
+1791115097245,1,06 Payment Status (auth),200,OK,Student Users 1-10,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115097317,2,06 Payment Status (auth),200,OK,Student Users 1-9,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,2,0,0
+1791115097430,3,07 Delete Student,204,No Content,Student Users 1-18,,true,,166,191,20,20,http://localhost:4000/api/students/90000018,0,0,0
+1791115097502,1,04 View Created Student,200,OK,Student Users 1-1,text,true,,454,169,20,20,http://localhost:4000/api/students/90000021,1,0,0
+1791115097519,26,05 Update Student,200,OK,Student Users 1-20,text,true,,454,226,20,20,http://localhost:4000/api/students/90000020,26,0,0
+1791115093161,29,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-20,,true,,1381,694,20,20,null,29,4355,0
+1791115097633,1,06 Payment Status (auth),200,OK,Student Users 1-7,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115097670,1,03 View Student by ID,200,OK,Student Users 1-11,text,true,,454,169,20,20,http://localhost:4000/api/students/20250011,1,0,0
+1791115098038,4,02 Create Student,201,Created,Student Users 1-5,text,true,,459,292,20,20,http://localhost:4000/api/students,4,0,0
+1791115098157,1,06 Payment Status (auth),200,OK,Student Users 1-8,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115098158,1,04 View Created Student,200,OK,Student Users 1-3,text,true,,460,169,20,20,http://localhost:4000/api/students/90000024,1,0,0
+1791115098170,1,01 List Students,200,OK,Student Users 1-17,text,true,,5371,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115098196,1,03 View Student by ID,200,OK,Student Users 1-12,text,true,,457,169,20,20,http://localhost:4000/api/students/20250013,1,0,0
+1791115098199,1,03 View Student by ID,200,OK,Student Users 1-13,text,true,,456,169,20,20,http://localhost:4000/api/students/20250014,1,0,0
+1791115098281,1,01 List Students,200,OK,Student Users 1-16,text,true,,5371,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115098381,1,06 Payment Status (auth),200,OK,Student Users 1-6,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115098464,2,03 View Student by ID,200,OK,Student Users 1-15,text,true,,455,169,20,20,http://localhost:4000/api/students/20250015,2,0,0
+1791115098464,4,02 Create Student,201,Created,Student Users 1-10,text,true,,464,297,20,20,http://localhost:4000/api/students,4,0,0
+1791115098711,4,05 Update Student,200,OK,Student Users 1-4,text,true,,454,228,20,20,http://localhost:4000/api/students/90000023,4,0,0
+1791115093837,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-4,,true,,1363,687,20,20,null,6,4871,0
+1791115098720,2,01 List Students,200,OK,Student Users 1-18,text,true,,5565,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115098729,2,02 Create Student,201,Created,Student Users 1-9,text,true,,457,290,20,20,http://localhost:4000/api/students,2,0,0
+1791115098779,2,02 Create Student,201,Created,Student Users 1-7,text,true,,462,295,20,20,http://localhost:4000/api/students,2,0,0
+1791115098867,2,07 Delete Student,204,No Content,Student Users 1-20,,true,,166,191,20,20,http://localhost:4000/api/students/90000020,0,0,0
+1791115098922,1,04 View Created Student,200,OK,Student Users 1-2,text,true,,451,169,20,20,http://localhost:4000/api/students/90000022,1,0,0
+1791115098932,1,07 Delete Student,204,No Content,Student Users 1-19,,true,,166,191,20,20,http://localhost:4000/api/students/90000019,0,0,0
+1791115098965,1,06 Payment Status (auth),200,OK,Student Users 1-14,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115099280,0,06 Payment Status (auth),200,OK,Student Users 1-12,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115099334,1,06 Payment Status (auth),200,OK,Student Users 1-13,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115099370,4,05 Update Student,200,OK,Student Users 1-1,text,true,,459,228,20,20,http://localhost:4000/api/students/90000021,4,0,0
+1791115094651,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-1,,true,,1372,689,20,20,null,7,4715,0
+1791115099422,1,04 View Created Student,200,OK,Student Users 1-5,text,true,,454,169,20,20,http://localhost:4000/api/students/90000025,1,0,0
+1791115099546,3,02 Create Student,201,Created,Student Users 1-6,text,true,,453,286,20,20,http://localhost:4000/api/students,3,0,0
+1791115099583,1,06 Payment Status (auth),200,OK,Student Users 1-11,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115099587,2,03 View Student by ID,200,OK,Student Users 1-17,text,true,,458,169,20,20,http://localhost:4000/api/students/20250017,2,0,0
+1791115099767,4,05 Update Student,200,OK,Student Users 1-3,text,true,,467,235,20,20,http://localhost:4000/api/students/90000024,4,0,0
+1791115095192,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-3,,true,,1392,702,20,20,null,6,4572,0
+1791115099797,2,02 Create Student,201,Created,Student Users 1-8,text,true,,468,301,20,20,http://localhost:4000/api/students,2,0,0
+1791115099886,1,03 View Student by ID,200,OK,Student Users 1-16,text,true,,459,169,20,20,http://localhost:4000/api/students/20250016,1,0,0
+1791115099983,1,06 Payment Status (auth),200,OK,Student Users 1-15,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115100015,1,03 View Student by ID,200,OK,Student Users 1-18,text,true,,456,169,20,20,http://localhost:4000/api/students/20250018,1,0,0
+1791115100016,2,01 List Students,200,OK,Student Users 1-19,text,true,,5959,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115100149,1,01 List Students,200,OK,Student Users 1-20,text,true,,5959,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115100218,8,07 Delete Student,204,No Content,Student Users 1-4,,true,,166,191,20,20,http://localhost:4000/api/students/90000023,0,0,0
+1791115100255,2,05 Update Student,200,OK,Student Users 1-2,text,true,,453,223,20,20,http://localhost:4000/api/students/90000022,1,0,0
+1791115095211,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-2,,true,,1360,681,20,20,null,5,5041,0
+1791115100259,1,04 View Created Student,200,OK,Student Users 1-10,text,true,,459,169,20,20,http://localhost:4000/api/students/90000026,1,0,0
+1791115100359,1,04 View Created Student,200,OK,Student Users 1-7,text,true,,457,169,20,20,http://localhost:4000/api/students/90000028,1,0,0
+1791115100416,2,02 Create Student,201,Created,Student Users 1-14,text,true,,466,299,20,20,http://localhost:4000/api/students,2,0,0
+1791115100448,1,04 View Created Student,200,OK,Student Users 1-9,text,true,,452,169,20,20,http://localhost:4000/api/students/90000027,1,0,0
+1791115100663,3,07 Delete Student,204,No Content,Student Users 1-1,,true,,166,191,20,20,http://localhost:4000/api/students/90000021,0,0,0
+1791115100680,1,05 Update Student,200,OK,Student Users 1-5,text,true,,456,228,20,20,http://localhost:4000/api/students/90000025,1,0,0
+1791115096391,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-5,,true,,1369,689,20,20,null,6,4283,0
+1791115100775,3,02 Create Student,201,Created,Student Users 1-13,text,true,,456,289,20,20,http://localhost:4000/api/students,3,0,0
+1791115100855,3,04 View Created Student,200,OK,Student Users 1-6,text,true,,448,169,20,20,http://localhost:4000/api/students/90000030,3,0,0
+1791115100907,1,06 Payment Status (auth),200,OK,Student Users 1-17,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115100952,1,06 Payment Status (auth),200,OK,Student Users 1-16,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115101048,3,02 Create Student,201,Created,Student Users 1-11,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115101107,2,02 Create Student,201,Created,Student Users 1-12,text,true,,459,292,20,20,http://localhost:4000/api/students,2,0,0
+1791115101130,1,06 Payment Status (auth),200,OK,Student Users 1-18,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115101550,1,01 List Students,200,OK,Student Users 1-4,text,true,,6336,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115101638,1,04 View Created Student,200,OK,Student Users 1-8,text,true,,463,169,20,20,http://localhost:4000/api/students/90000029,1,0,0
+1791115101685,3,07 Delete Student,204,No Content,Student Users 1-3,,true,,166,191,20,20,http://localhost:4000/api/students/90000024,0,0,0
+1791115101709,0,02 Create Student,201,Created,Student Users 1-15,text,true,,457,290,20,20,http://localhost:4000/api/students,0,0,0
+1791115101710,1,03 View Student by ID,200,OK,Student Users 1-20,text,true,,454,169,20,20,http://localhost:4000/api/students/20250019,1,0,0
+1791115101877,2,03 View Student by ID,200,OK,Student Users 1-19,text,true,,459,169,20,20,http://localhost:4000/api/students/20250020,2,0,0
+1791115101910,4,05 Update Student,200,OK,Student Users 1-7,text,true,,454,225,20,20,http://localhost:4000/api/students/90000028,4,0,0
+1791115097634,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-7,,true,,1373,689,20,20,null,7,4273,0
+1791115102092,4,05 Update Student,200,OK,Student Users 1-10,text,true,,466,235,20,20,http://localhost:4000/api/students/90000026,4,0,0
+1791115097246,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-10,,true,,1389,701,20,20,null,9,4840,0
+1791115102177,2,04 View Created Student,200,OK,Student Users 1-14,text,true,,461,169,20,20,http://localhost:4000/api/students/90000032,2,0,0
+1791115102199,6,07 Delete Student,204,No Content,Student Users 1-2,,true,,166,191,20,20,http://localhost:4000/api/students/90000022,0,0,0
+1791115102213,2,04 View Created Student,200,OK,Student Users 1-13,text,true,,451,169,20,20,http://localhost:4000/api/students/90000034,2,0,0
+1791115102271,3,05 Update Student,200,OK,Student Users 1-9,text,true,,450,221,20,20,http://localhost:4000/api/students/90000027,3,0,0
+1791115097320,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-9,,true,,1359,680,20,20,null,6,4947,0
+1791115102371,24,05 Update Student,200,OK,Student Users 1-6,text,true,,450,223,20,20,http://localhost:4000/api/students/90000030,24,0,0
+1791115098382,30,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-6,,true,,1351,678,20,20,null,30,3982,0
+1791115102430,1,02 Create Student,201,Created,Student Users 1-18,text,true,,464,297,20,20,http://localhost:4000/api/students,1,0,0
+1791115102456,1,01 List Students,200,OK,Student Users 1-1,text,true,,6331,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115102519,9,07 Delete Student,204,No Content,Student Users 1-5,,true,,166,191,20,20,http://localhost:4000/api/students/90000025,0,0,0
+1791115102572,1,04 View Created Student,200,OK,Student Users 1-11,text,true,,454,169,20,20,http://localhost:4000/api/students/90000031,1,0,0
+1791115102688,4,02 Create Student,201,Created,Student Users 1-17,text,true,,459,292,20,20,http://localhost:4000/api/students,4,0,0
+1791115102691,2,02 Create Student,201,Created,Student Users 1-16,text,true,,465,298,20,20,http://localhost:4000/api/students,2,0,0
+1791115102713,1,05 Update Student,200,OK,Student Users 1-8,text,true,,461,233,20,20,http://localhost:4000/api/students/90000029,1,0,0
+1791115098158,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-8,,true,,1392,703,20,20,null,4,4552,0
+1791115102923,1,04 View Created Student,200,OK,Student Users 1-15,text,true,,452,169,20,20,http://localhost:4000/api/students/90000035,1,0,0
+1791115103008,1,04 View Created Student,200,OK,Student Users 1-12,text,true,,454,169,20,20,http://localhost:4000/api/students/90000033,1,0,0
+1791115103071,3,07 Delete Student,204,No Content,Student Users 1-7,,true,,166,191,20,20,http://localhost:4000/api/students/90000028,0,0,0
+1791115103217,4,05 Update Student,200,OK,Student Users 1-14,text,true,,454,226,20,20,http://localhost:4000/api/students/90000032,4,0,0
+1791115098966,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-14,,true,,1381,694,20,20,null,8,4246,0
+1791115103221,1,03 View Student by ID,200,OK,Student Users 1-4,text,true,,455,169,20,20,http://localhost:4000/api/students/20250001,1,0,0
+1791115103237,6,06 Payment Status (auth),200,OK,Student Users 1-20,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,6,0,0
+1791115103488,1,06 Payment Status (auth),200,OK,Student Users 1-19,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115103518,3,07 Delete Student,204,No Content,Student Users 1-10,,true,,166,191,20,20,http://localhost:4000/api/students/90000026,0,0,0
+1791115103581,4,07 Delete Student,204,No Content,Student Users 1-6,,true,,166,191,20,20,http://localhost:4000/api/students/90000030,0,0,0
+1791115103644,2,01 List Students,200,OK,Student Users 1-3,text,true,,5944,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115103826,3,05 Update Student,200,OK,Student Users 1-13,text,true,,453,223,20,20,http://localhost:4000/api/students/90000034,3,0,0
+1791115099335,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-13,,true,,1360,681,20,20,null,8,4485,0
+1791115103896,4,05 Update Student,200,OK,Student Users 1-11,text,true,,450,221,20,20,http://localhost:4000/api/students/90000031,4,0,0
+1791115099584,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-11,,true,,1363,682,20,20,null,8,4308,0
+1791115104035,44,04 View Created Student,200,OK,Student Users 1-18,text,true,,459,169,20,20,http://localhost:4000/api/students/90000038,44,0,0
+1791115104178,1,01 List Students,200,OK,Student Users 1-2,text,true,,5942,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115104220,3,07 Delete Student,204,No Content,Student Users 1-9,,true,,166,191,20,20,http://localhost:4000/api/students/90000027,0,0,0
+1791115104223,1,04 View Created Student,200,OK,Student Users 1-17,text,true,,454,169,20,20,http://localhost:4000/api/students/90000037,1,0,0
+1791115104320,1,03 View Student by ID,200,OK,Student Users 1-1,text,true,,455,169,20,20,http://localhost:4000/api/students/20250002,1,0,0
+1791115104329,2,01 List Students,200,OK,Student Users 1-7,text,true,,5759,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115104356,6,02 Create Student,201,Created,Student Users 1-20,text,true,,457,290,20,20,http://localhost:4000/api/students,6,0,0
+1791115104379,2,01 List Students,200,OK,Student Users 1-5,text,true,,5944,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115104442,3,05 Update Student,200,OK,Student Users 1-15,text,true,,454,228,20,20,http://localhost:4000/api/students/90000035,3,0,0
+1791115099984,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-15,,true,,1363,687,20,20,null,4,4456,0
+1791115104464,2,04 View Created Student,200,OK,Student Users 1-16,text,true,,460,169,20,20,http://localhost:4000/api/students/90000036,2,0,0
+1791115104613,3,06 Payment Status (auth),200,OK,Student Users 1-4,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,3,0,0
+1791115104627,3,07 Delete Student,204,No Content,Student Users 1-8,,true,,166,191,20,20,http://localhost:4000/api/students/90000029,0,0,0
+1791115104679,1,07 Delete Student,204,No Content,Student Users 1-14,,true,,166,191,20,20,http://localhost:4000/api/students/90000032,0,0,0
+1791115104760,1,03 View Student by ID,200,OK,Student Users 1-3,text,true,,456,169,20,20,http://localhost:4000/api/students/20250003,1,0,0
+1791115104821,3,02 Create Student,201,Created,Student Users 1-19,text,true,,462,295,20,20,http://localhost:4000/api/students,3,0,0
+1791115104934,12,01 List Students,200,OK,Student Users 1-10,text,true,,5755,160,20,20,http://localhost:4000/api/students,12,0,0
+1791115104973,4,05 Update Student,200,OK,Student Users 1-12,text,true,,459,228,20,20,http://localhost:4000/api/students/90000033,4,0,0
+1791115099280,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-12,,true,,1372,689,20,20,null,7,5689,0
+1791115105081,1,01 List Students,200,OK,Student Users 1-6,text,true,,5760,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115105292,3,07 Delete Student,204,No Content,Student Users 1-13,,true,,166,191,20,20,http://localhost:4000/api/students/90000034,0,0,0
+1791115105304,1,01 List Students,200,OK,Student Users 1-9,text,true,,5574,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115105420,1,07 Delete Student,204,No Content,Student Users 1-11,,true,,166,191,20,20,http://localhost:4000/api/students/90000031,0,0,0
+1791115105454,2,03 View Student by ID,200,OK,Student Users 1-5,text,true,,455,169,20,20,http://localhost:4000/api/students/20250005,2,0,0
+1791115105473,1,06 Payment Status (auth),200,OK,Student Users 1-1,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115105533,3,05 Update Student,200,OK,Student Users 1-18,text,true,,466,235,20,20,http://localhost:4000/api/students/90000038,3,0,0
+1791115101131,48,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-18,,true,,1389,701,20,20,null,48,4356,0
+1791115105760,1,04 View Created Student,200,OK,Student Users 1-20,text,true,,452,169,20,20,http://localhost:4000/api/students/90000039,1,0,0
+1791115105800,1,03 View Student by ID,200,OK,Student Users 1-2,text,true,,456,169,20,20,http://localhost:4000/api/students/20250004,1,0,0
+1791115105852,2,03 View Student by ID,200,OK,Student Users 1-7,text,true,,459,169,20,20,http://localhost:4000/api/students/20250006,1,0,0
+1791115105965,3,05 Update Student,200,OK,Student Users 1-17,text,true,,456,228,20,20,http://localhost:4000/api/students/90000037,3,0,0
+1791115100908,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-17,,true,,1369,689,20,20,null,8,5051,0
+1791115106001,1,07 Delete Student,204,No Content,Student Users 1-12,,true,,166,191,20,20,http://localhost:4000/api/students/90000033,0,0,0
+1791115106108,1,03 View Student by ID,200,OK,Student Users 1-6,text,true,,457,169,20,20,http://localhost:4000/api/students/20250008,1,0,0
+1791115106109,3,07 Delete Student,204,No Content,Student Users 1-15,,true,,166,191,20,20,http://localhost:4000/api/students/90000035,0,0,0
+1791115106234,1,06 Payment Status (auth),200,OK,Student Users 1-3,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115106328,2,01 List Students,200,OK,Student Users 1-14,text,true,,5021,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115106411,2,05 Update Student,200,OK,Student Users 1-16,text,true,,467,235,20,20,http://localhost:4000/api/students/90000036,2,0,0
+1791115100953,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-16,,true,,1392,702,20,20,null,6,5453,0
+1791115106416,1,01 List Students,200,OK,Student Users 1-8,text,true,,5028,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115106473,3,02 Create Student,201,Created,Student Users 1-4,text,true,,468,301,20,20,http://localhost:4000/api/students,3,0,0
+1791115106490,2,06 Payment Status (auth),200,OK,Student Users 1-5,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,2,0,0
+1791115106548,1,04 View Created Student,200,OK,Student Users 1-19,text,true,,457,169,20,20,http://localhost:4000/api/students/90000040,1,0,0
+1791115106637,1,01 List Students,200,OK,Student Users 1-13,text,true,,5224,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115106730,3,07 Delete Student,204,No Content,Student Users 1-18,,true,,166,191,20,20,http://localhost:4000/api/students/90000038,0,0,0
+1791115106761,1,03 View Student by ID,200,OK,Student Users 1-9,text,true,,456,169,20,20,http://localhost:4000/api/students/20250009,1,0,0
+1791115106940,3,03 View Student by ID,200,OK,Student Users 1-10,text,true,,458,169,20,20,http://localhost:4000/api/students/20250007,3,0,0
+1791115107131,4,02 Create Student,201,Created,Student Users 1-1,text,true,,453,286,20,20,http://localhost:4000/api/students,4,0,0
+1791115107200,2,01 List Students,200,OK,Student Users 1-11,text,true,,5206,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115107202,1,06 Payment Status (auth),200,OK,Student Users 1-6,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115107278,4,05 Update Student,200,OK,Student Users 1-20,text,true,,450,221,20,20,http://localhost:4000/api/students/90000039,4,0,0
+1791115103243,11,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-20,,true,,1359,680,20,20,null,11,4028,0
+1791115107464,1,06 Payment Status (auth),200,OK,Student Users 1-7,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115107488,1,01 List Students,200,OK,Student Users 1-12,text,true,,5204,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115107517,1,04 View Created Student,200,OK,Student Users 1-4,text,true,,463,169,20,20,http://localhost:4000/api/students/90000041,1,0,0
+1791115107558,1,01 List Students,200,OK,Student Users 1-15,text,true,,5204,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115107641,1,06 Payment Status (auth),200,OK,Student Users 1-2,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115107807,4,07 Delete Student,204,No Content,Student Users 1-17,,true,,166,191,20,20,http://localhost:4000/api/students/90000037,0,0,0
+1791115107858,1,03 View Student by ID,200,OK,Student Users 1-14,text,true,,454,169,20,20,http://localhost:4000/api/students/20250011,1,0,0
+1791115107869,1,03 View Student by ID,200,OK,Student Users 1-8,text,true,,459,169,20,20,http://localhost:4000/api/students/20250010,1,0,0
+1791115108075,3,02 Create Student,201,Created,Student Users 1-3,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115108088,1,07 Delete Student,204,No Content,Student Users 1-16,,true,,166,191,20,20,http://localhost:4000/api/students/90000036,0,0,0
+1791115108162,1,06 Payment Status (auth),200,OK,Student Users 1-9,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115108192,4,02 Create Student,201,Created,Student Users 1-5,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115108230,1,04 View Created Student,200,OK,Student Users 1-1,text,true,,448,169,20,20,http://localhost:4000/api/students/90000042,1,0,0
+1791115108241,5,03 View Student by ID,200,OK,Student Users 1-13,text,true,,459,169,20,20,http://localhost:4000/api/students/20250012,5,0,0
+1791115108236,10,03 View Student by ID,200,OK,Student Users 1-11,text,true,,457,169,20,20,http://localhost:4000/api/students/20250013,10,0,0
+1791115108324,3,07 Delete Student,204,No Content,Student Users 1-20,,true,,166,191,20,20,http://localhost:4000/api/students/90000039,0,0,0
+1791115108332,1,01 List Students,200,OK,Student Users 1-18,text,true,,5006,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115108441,4,05 Update Student,200,OK,Student Users 1-19,text,true,,454,225,20,20,http://localhost:4000/api/students/90000040,4,0,0
+1791115103489,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-19,,true,,1373,689,20,20,null,8,4948,0
+1791115108522,1,03 View Student by ID,200,OK,Student Users 1-12,text,true,,456,169,20,20,http://localhost:4000/api/students/20250014,1,0,0
+1791115108530,1,06 Payment Status (auth),200,OK,Student Users 1-10,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115108767,4,02 Create Student,201,Created,Student Users 1-6,text,true,,465,298,20,20,http://localhost:4000/api/students,4,0,0
+1791115108824,1,02 Create Student,201,Created,Student Users 1-2,text,true,,466,299,20,20,http://localhost:4000/api/students,1,0,0
+1791115108949,3,02 Create Student,201,Created,Student Users 1-7,text,true,,456,289,20,20,http://localhost:4000/api/students,3,0,0
+1791115109144,6,06 Payment Status (auth),200,OK,Student Users 1-14,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,6,0,0
+1791115109220,1,01 List Students,200,OK,Student Users 1-17,text,true,,5574,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115109232,1,04 View Created Student,200,OK,Student Users 1-3,text,true,,454,169,20,20,http://localhost:4000/api/students/90000043,1,0,0
+1791115109352,1,04 View Created Student,200,OK,Student Users 1-5,text,true,,454,169,20,20,http://localhost:4000/api/students/90000045,1,0,0
+1791115109382,2,05 Update Student,200,OK,Student Users 1-4,text,true,,461,233,20,20,http://localhost:4000/api/students/90000041,2,0,0
+1791115104616,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-4,,true,,1392,703,20,20,null,6,4762,0
+1791115109464,1,03 View Student by ID,200,OK,Student Users 1-15,text,true,,455,169,20,20,http://localhost:4000/api/students/20250015,1,0,0
+1791115109501,1,01 List Students,200,OK,Student Users 1-16,text,true,,5572,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115109538,3,02 Create Student,201,Created,Student Users 1-10,text,true,,457,290,20,20,http://localhost:4000/api/students,3,0,0
+1791115109570,1,06 Payment Status (auth),200,OK,Student Users 1-8,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115109604,4,02 Create Student,201,Created,Student Users 1-9,text,true,,459,292,20,20,http://localhost:4000/api/students,4,0,0
+1791115109670,17,01 List Students,200,OK,Student Users 1-20,text,true,,5944,160,20,20,http://localhost:4000/api/students,17,0,0
+1791115109802,1,06 Payment Status (auth),200,OK,Student Users 1-11,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115109831,3,07 Delete Student,204,No Content,Student Users 1-19,,true,,166,191,20,20,http://localhost:4000/api/students/90000040,0,0,0
+1791115109944,1,06 Payment Status (auth),200,OK,Student Users 1-13,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115109957,4,05 Update Student,200,OK,Student Users 1-1,text,true,,450,223,20,20,http://localhost:4000/api/students/90000042,4,0,0
+1791115105474,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-1,,true,,1351,678,20,20,null,9,4478,0
+1791115110045,1,04 View Created Student,200,OK,Student Users 1-6,text,true,,460,169,20,20,http://localhost:4000/api/students/90000048,1,0,0
+1791115110263,2,03 View Student by ID,200,OK,Student Users 1-18,text,true,,459,169,20,20,http://localhost:4000/api/students/20250016,2,0,0
+1791115110451,1,06 Payment Status (auth),200,OK,Student Users 1-12,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115110462,1,03 View Student by ID,200,OK,Student Users 1-17,text,true,,458,169,20,20,http://localhost:4000/api/students/20250017,1,0,0
+1791115110608,4,02 Create Student,201,Created,Student Users 1-8,text,true,,464,297,20,20,http://localhost:4000/api/students,4,0,0
+1791115110631,1,04 View Created Student,200,OK,Student Users 1-2,text,true,,461,169,20,20,http://localhost:4000/api/students/90000044,1,0,0
+1791115110640,2,05 Update Student,200,OK,Student Users 1-3,text,true,,450,221,20,20,http://localhost:4000/api/students/90000043,2,0,0
+1791115106235,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-3,,true,,1363,682,20,20,null,6,4401,0
+1791115110647,1,04 View Created Student,200,OK,Student Users 1-10,text,true,,452,169,20,20,http://localhost:4000/api/students/90000047,1,0,0
+1791115110853,1,06 Payment Status (auth),200,OK,Student Users 1-15,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115110890,4,02 Create Student,201,Created,Student Users 1-14,text,true,,457,290,20,20,http://localhost:4000/api/students,4,0,0
+1791115110916,1,07 Delete Student,204,No Content,Student Users 1-4,,true,,166,191,20,20,http://localhost:4000/api/students/90000041,0,0,0
+1791115110928,1,04 View Created Student,200,OK,Student Users 1-7,text,true,,451,169,20,20,http://localhost:4000/api/students/90000046,1,0,0
+1791115110949,1,02 Create Student,201,Created,Student Users 1-11,text,true,,468,301,20,20,http://localhost:4000/api/students,1,0,0
+1791115110954,2,05 Update Student,200,OK,Student Users 1-5,text,true,,459,228,20,20,http://localhost:4000/api/students/90000045,2,0,0
+1791115106492,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-5,,true,,1372,689,20,20,null,6,4457,0
+1791115110987,1,07 Delete Student,204,No Content,Student Users 1-1,,true,,166,191,20,20,http://localhost:4000/api/students/90000042,0,0,0
+1791115111059,1,03 View Student by ID,200,OK,Student Users 1-16,text,true,,456,169,20,20,http://localhost:4000/api/students/20250018,1,0,0
+1791115111157,4,02 Create Student,201,Created,Student Users 1-13,text,true,,462,295,20,20,http://localhost:4000/api/students,4,0,0
+1791115111237,1,03 View Student by ID,200,OK,Student Users 1-20,text,true,,454,169,20,20,http://localhost:4000/api/students/20250019,1,0,0
+1791115111333,4,05 Update Student,200,OK,Student Users 1-6,text,true,,467,235,20,20,http://localhost:4000/api/students/90000048,4,0,0
+1791115107203,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-6,,true,,1392,702,20,20,null,9,4125,0
+1791115111573,1,01 List Students,200,OK,Student Users 1-19,text,true,,6153,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115111581,1,04 View Created Student,200,OK,Student Users 1-9,text,true,,454,169,20,20,http://localhost:4000/api/students/90000049,1,0,0
+1791115111646,1,06 Payment Status (auth),200,OK,Student Users 1-17,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115111729,7,05 Update Student,200,OK,Student Users 1-2,text,true,,454,226,20,20,http://localhost:4000/api/students/90000044,7,0,0
+1791115107642,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-2,,true,,1381,694,20,20,null,9,4085,0
+1791115111846,2,04 View Created Student,200,OK,Student Users 1-8,text,true,,459,169,20,20,http://localhost:4000/api/students/90000050,2,0,0
+1791115111936,0,06 Payment Status (auth),200,OK,Student Users 1-18,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115112041,2,05 Update Student,200,OK,Student Users 1-10,text,true,,454,228,20,20,http://localhost:4000/api/students/90000047,2,0,0
+1791115108531,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-10,,true,,1363,687,20,20,null,6,3506,0
+1791115112129,3,02 Create Student,201,Created,Student Users 1-12,text,true,,453,286,20,20,http://localhost:4000/api/students,3,0,0
+1791115112202,2,04 View Created Student,200,OK,Student Users 1-13,text,true,,457,169,20,20,http://localhost:4000/api/students/90000052,2,0,0
+1791115112234,1,01 List Students,200,OK,Student Users 1-4,text,true,,6329,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115112426,3,07 Delete Student,204,No Content,Student Users 1-3,,true,,166,191,20,20,http://localhost:4000/api/students/90000043,0,0,0
+1791115112461,1,02 Create Student,201,Created,Student Users 1-15,text,true,,459,292,20,20,http://localhost:4000/api/students,1,0,0
+1791115112498,0,06 Payment Status (auth),200,OK,Student Users 1-16,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115112589,1,04 View Created Student,200,OK,Student Users 1-14,text,true,,452,169,20,20,http://localhost:4000/api/students/90000051,1,0,0
+1791115112606,4,05 Update Student,200,OK,Student Users 1-7,text,true,,453,223,20,20,http://localhost:4000/api/students/90000046,4,0,0
+1791115107465,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-7,,true,,1360,681,20,20,null,8,5138,0
+1791115112610,1,03 View Student by ID,200,OK,Student Users 1-19,text,true,,459,169,20,20,http://localhost:4000/api/students/20250020,1,0,0
+1791115112629,2,04 View Created Student,200,OK,Student Users 1-11,text,true,,463,169,20,20,http://localhost:4000/api/students/90000053,2,0,0
+1791115112653,1,07 Delete Student,204,No Content,Student Users 1-6,,true,,166,191,20,20,http://localhost:4000/api/students/90000048,0,0,0
+1791115112781,3,02 Create Student,201,Created,Student Users 1-17,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115112866,1,05 Update Student,200,OK,Student Users 1-8,text,true,,466,235,20,20,http://localhost:4000/api/students/90000050,1,0,0
+1791115109571,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-8,,true,,1389,701,20,20,null,7,3290,0
+1791115112892,1,07 Delete Student,204,No Content,Student Users 1-5,,true,,166,191,20,20,http://localhost:4000/api/students/90000045,0,0,0
+1791115112934,1,01 List Students,200,OK,Student Users 1-1,text,true,,6137,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115113135,4,05 Update Student,200,OK,Student Users 1-9,text,true,,456,228,20,20,http://localhost:4000/api/students/90000049,4,0,0
+1791115108163,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-9,,true,,1369,689,20,20,null,9,4968,0
+1791115113147,1,02 Create Student,201,Created,Student Users 1-18,text,true,,466,299,20,20,http://localhost:4000/api/students,1,0,0
+1791115113152,1,06 Payment Status (auth),200,OK,Student Users 1-20,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115113291,91,07 Delete Student,204,No Content,Student Users 1-2,,true,,166,191,20,20,http://localhost:4000/api/students/90000044,0,0,0
+1791115113432,1,07 Delete Student,204,No Content,Student Users 1-10,,true,,166,191,20,20,http://localhost:4000/api/students/90000047,0,0,0
+1791115113516,1,04 View Created Student,200,OK,Student Users 1-12,text,true,,448,169,20,20,http://localhost:4000/api/students/90000054,1,0,0
+1791115113632,3,05 Update Student,200,OK,Student Users 1-14,text,true,,450,221,20,20,http://localhost:4000/api/students/90000051,3,0,0
+1791115109150,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-14,,true,,1359,680,20,20,null,8,4478,0
+1791115113765,5,05 Update Student,200,OK,Student Users 1-13,text,true,,454,225,20,20,http://localhost:4000/api/students/90000052,5,0,0
+1791115109945,11,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-13,,true,,1373,689,20,20,null,11,3815,0
+1791115113933,1,03 View Student by ID,200,OK,Student Users 1-4,text,true,,455,169,20,20,http://localhost:4000/api/students/20250001,1,0,0
+1791115114025,2,04 View Created Student,200,OK,Student Users 1-15,text,true,,454,169,20,20,http://localhost:4000/api/students/90000055,2,0,0
+1791115114131,2,01 List Students,200,OK,Student Users 1-6,text,true,,5954,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115114190,1,03 View Student by ID,200,OK,Student Users 1-1,text,true,,455,169,20,20,http://localhost:4000/api/students/20250002,1,0,0
+1791115114194,4,07 Delete Student,204,No Content,Student Users 1-8,,true,,166,191,20,20,http://localhost:4000/api/students/90000050,0,0,0
+1791115114197,1,06 Payment Status (auth),200,OK,Student Users 1-19,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115114281,3,05 Update Student,200,OK,Student Users 1-11,text,true,,461,233,20,20,http://localhost:4000/api/students/90000053,3,0,0
+1791115109803,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-11,,true,,1392,703,20,20,null,6,4476,0
+1791115114292,1,01 List Students,200,OK,Student Users 1-3,text,true,,5753,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115114319,2,02 Create Student,201,Created,Student Users 1-16,text,true,,456,289,20,20,http://localhost:4000/api/students,2,0,0
+1791115114356,2,07 Delete Student,204,No Content,Student Users 1-7,,true,,166,191,20,20,http://localhost:4000/api/students/90000046,0,0,0
+1791115114444,3,07 Delete Student,204,No Content,Student Users 1-9,,true,,166,191,20,20,http://localhost:4000/api/students/90000049,0,0,0
+1791115114523,3,02 Create Student,201,Created,Student Users 1-20,text,true,,457,290,20,20,http://localhost:4000/api/students,3,0,0
+1791115114541,4,04 View Created Student,200,OK,Student Users 1-17,text,true,,454,169,20,20,http://localhost:4000/api/students/90000057,4,0,0
+1791115114768,2,01 List Students,200,OK,Student Users 1-5,text,true,,5747,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115114909,1,04 View Created Student,200,OK,Student Users 1-18,text,true,,461,169,20,20,http://localhost:4000/api/students/90000056,1,0,0
+1791115115038,3,07 Delete Student,204,No Content,Student Users 1-13,,true,,166,191,20,20,http://localhost:4000/api/students/90000052,0,0,0
+1791115115063,1,01 List Students,200,OK,Student Users 1-10,text,true,,5560,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115115063,1,07 Delete Student,204,No Content,Student Users 1-14,,true,,166,191,20,20,http://localhost:4000/api/students/90000051,0,0,0
+1791115115134,3,05 Update Student,200,OK,Student Users 1-15,text,true,,450,221,20,20,http://localhost:4000/api/students/90000055,3,0,0
+1791115110854,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-15,,true,,1363,682,20,20,null,6,4279,0
+1791115115283,1,01 List Students,200,OK,Student Users 1-2,text,true,,5373,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115115316,1,03 View Student by ID,200,OK,Student Users 1-6,text,true,,456,169,20,20,http://localhost:4000/api/students/20250004,1,0,0
+1791115115344,4,07 Delete Student,204,No Content,Student Users 1-11,,true,,166,191,20,20,http://localhost:4000/api/students/90000053,0,0,0
+1791115115397,2,05 Update Student,200,OK,Student Users 1-12,text,true,,450,223,20,20,http://localhost:4000/api/students/90000054,2,0,0
+1791115110452,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-12,,true,,1351,678,20,20,null,6,4942,0
+1791115115434,1,01 List Students,200,OK,Student Users 1-8,text,true,,5181,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115115620,3,04 View Created Student,200,OK,Student Users 1-20,text,true,,452,169,20,20,http://localhost:4000/api/students/90000059,3,0,0
+1791115115663,1,03 View Student by ID,200,OK,Student Users 1-3,text,true,,456,169,20,20,http://localhost:4000/api/students/20250003,1,0,0
+1791115115703,1,06 Payment Status (auth),200,OK,Student Users 1-4,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115115702,4,02 Create Student,201,Created,Student Users 1-19,text,true,,465,298,20,20,http://localhost:4000/api/students,4,0,0
+1791115115857,1,04 View Created Student,200,OK,Student Users 1-16,text,true,,451,169,20,20,http://localhost:4000/api/students/90000058,1,0,0
+1791115115909,1,03 View Student by ID,200,OK,Student Users 1-5,text,true,,455,169,20,20,http://localhost:4000/api/students/20250005,1,0,0
+1791115115947,1,01 List Students,200,OK,Student Users 1-7,text,true,,5374,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115116011,1,01 List Students,200,OK,Student Users 1-9,text,true,,5374,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115116069,4,05 Update Student,200,OK,Student Users 1-17,text,true,,459,228,20,20,http://localhost:4000/api/students/90000057,4,0,0
+1791115111647,11,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-17,,true,,1372,689,20,20,null,11,4416,0
+1791115116117,1,01 List Students,200,OK,Student Users 1-14,text,true,,5379,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115116123,0,06 Payment Status (auth),200,OK,Student Users 1-1,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115116460,1,01 List Students,200,OK,Student Users 1-13,text,true,,5379,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115116676,3,07 Delete Student,204,No Content,Student Users 1-12,,true,,166,191,20,20,http://localhost:4000/api/students/90000054,0,0,0
+1791115116751,3,07 Delete Student,204,No Content,Student Users 1-15,,true,,166,191,20,20,http://localhost:4000/api/students/90000055,0,0,0
+1791115116772,2,05 Update Student,200,OK,Student Users 1-18,text,true,,454,226,20,20,http://localhost:4000/api/students/90000056,2,0,0
+1791115111936,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-18,,true,,1381,694,20,20,null,4,4835,0
+1791115116790,1,03 View Student by ID,200,OK,Student Users 1-8,text,true,,457,169,20,20,http://localhost:4000/api/students/20250008,1,0,0
+1791115116807,1,01 List Students,200,OK,Student Users 1-11,text,true,,5006,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115116875,3,02 Create Student,201,Created,Student Users 1-4,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115116995,1,04 View Created Student,200,OK,Student Users 1-19,text,true,,460,169,20,20,http://localhost:4000/api/students/90000060,1,0,0
+1791115117018,1,03 View Student by ID,200,OK,Student Users 1-10,text,true,,458,169,20,20,http://localhost:4000/api/students/20250007,1,0,0
+1791115117023,0,06 Payment Status (auth),200,OK,Student Users 1-6,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115117132,1,03 View Student by ID,200,OK,Student Users 1-2,text,true,,459,169,20,20,http://localhost:4000/api/students/20250006,1,0,0
+1791115117147,1,03 View Student by ID,200,OK,Student Users 1-14,text,true,,459,169,20,20,http://localhost:4000/api/students/20250012,1,0,0
+1791115117298,1,03 View Student by ID,200,OK,Student Users 1-9,text,true,,459,169,20,20,http://localhost:4000/api/students/20250010,1,0,0
+1791115117352,1,03 View Student by ID,200,OK,Student Users 1-7,text,true,,456,169,20,20,http://localhost:4000/api/students/20250009,1,0,0
+1791115117393,3,02 Create Student,201,Created,Student Users 1-1,text,true,,464,297,20,20,http://localhost:4000/api/students,3,0,0
+1791115117468,7,06 Payment Status (auth),200,OK,Student Users 1-5,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,7,0,0
+1791115117537,1,06 Payment Status (auth),200,OK,Student Users 1-3,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115117566,3,07 Delete Student,204,No Content,Student Users 1-17,,true,,166,191,20,20,http://localhost:4000/api/students/90000057,0,0,0
+1791115117579,2,05 Update Student,200,OK,Student Users 1-20,text,true,,454,228,20,20,http://localhost:4000/api/students/90000059,2,0,0
+1791115113153,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-20,,true,,1363,687,20,20,null,8,4420,0
+1791115117586,1,05 Update Student,200,OK,Student Users 1-16,text,true,,453,223,20,20,http://localhost:4000/api/students/90000058,1,0,0
+1791115112499,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-16,,true,,1360,681,20,20,null,4,5084,0
+1791115117898,1,03 View Student by ID,200,OK,Student Users 1-11,text,true,,457,169,20,20,http://localhost:4000/api/students/20250013,1,0,0
+1791115118139,6,06 Payment Status (auth),200,OK,Student Users 1-10,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,6,0,0
+1791115118021,124,04 View Created Student,200,OK,Student Users 1-4,text,true,,454,169,20,20,http://localhost:4000/api/students/90000061,124,0,0
+1791115118231,1,06 Payment Status (auth),200,OK,Student Users 1-2,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115118236,3,02 Create Student,201,Created,Student Users 1-6,text,true,,462,295,20,20,http://localhost:4000/api/students,3,0,0
+1791115118294,1,03 View Student by ID,200,OK,Student Users 1-13,text,true,,454,169,20,20,http://localhost:4000/api/students/20250011,1,0,0
+1791115118321,1,01 List Students,200,OK,Student Users 1-15,text,true,,5387,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115118381,1,01 List Students,200,OK,Student Users 1-12,text,true,,5387,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115118384,0,06 Payment Status (auth),200,OK,Student Users 1-8,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115118597,4,05 Update Student,200,OK,Student Users 1-19,text,true,,467,235,20,20,http://localhost:4000/api/students/90000060,4,0,0
+1791115114198,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-19,,true,,1392,702,20,20,null,9,4394,0
+1791115118605,3,07 Delete Student,204,No Content,Student Users 1-18,,true,,166,191,20,20,http://localhost:4000/api/students/90000056,0,0,0
+1791115118620,2,01 List Students,200,OK,Student Users 1-17,text,true,,5207,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115118689,1,07 Delete Student,204,No Content,Student Users 1-16,,true,,166,191,20,20,http://localhost:4000/api/students/90000058,0,0,0
+1791115118782,3,02 Create Student,201,Created,Student Users 1-5,text,true,,468,301,20,20,http://localhost:4000/api/students,3,0,0
+1791115118851,2,04 View Created Student,200,OK,Student Users 1-1,text,true,,459,169,20,20,http://localhost:4000/api/students/90000062,2,0,0
+1791115118870,1,06 Payment Status (auth),200,OK,Student Users 1-14,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115119077,1,06 Payment Status (auth),200,OK,Student Users 1-7,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115119122,1,06 Payment Status (auth),200,OK,Student Users 1-11,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115119174,0,06 Payment Status (auth),200,OK,Student Users 1-9,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115119176,3,02 Create Student,201,Created,Student Users 1-3,text,true,,457,290,20,20,http://localhost:4000/api/students,3,0,0
+1791115119271,4,02 Create Student,201,Created,Student Users 1-10,text,true,,459,292,20,20,http://localhost:4000/api/students,4,0,0
+1791115119506,1,04 View Created Student,200,OK,Student Users 1-6,text,true,,457,169,20,20,http://localhost:4000/api/students/90000064,1,0,0
+1791115119519,3,07 Delete Student,204,No Content,Student Users 1-20,,true,,166,191,20,20,http://localhost:4000/api/students/90000059,0,0,0
+1791115119660,1,06 Payment Status (auth),200,OK,Student Users 1-13,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115119669,3,07 Delete Student,204,No Content,Student Users 1-19,,true,,166,191,20,20,http://localhost:4000/api/students/90000060,0,0,0
+1791115119742,1,01 List Students,200,OK,Student Users 1-16,text,true,,5202,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115119806,8,03 View Student by ID,200,OK,Student Users 1-17,text,true,,459,169,20,20,http://localhost:4000/api/students/20250016,8,0,0
+1791115119909,3,05 Update Student,200,OK,Student Users 1-4,text,true,,456,228,20,20,http://localhost:4000/api/students/90000061,3,0,0
+1791115115704,130,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-4,,true,,1369,689,20,20,null,130,4078,0
+1791115120006,1,03 View Student by ID,200,OK,Student Users 1-15,text,true,,455,169,20,20,http://localhost:4000/api/students/20250015,1,0,0
+1791115120024,4,02 Create Student,201,Created,Student Users 1-14,text,true,,465,298,20,20,http://localhost:4000/api/students,4,0,0
+1791115120054,1,03 View Student by ID,200,OK,Student Users 1-12,text,true,,456,169,20,20,http://localhost:4000/api/students/20250014,1,0,0
+1791115120092,1,02 Create Student,201,Created,Student Users 1-8,text,true,,466,299,20,20,http://localhost:4000/api/students,1,0,0
+1791115120172,3,02 Create Student,201,Created,Student Users 1-2,text,true,,453,286,20,20,http://localhost:4000/api/students,3,0,0
+1791115120388,1,01 List Students,200,OK,Student Users 1-18,text,true,,5772,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115120446,2,04 View Created Student,200,OK,Student Users 1-5,text,true,,463,169,20,20,http://localhost:4000/api/students/90000065,2,0,0
+1791115120581,2,05 Update Student,200,OK,Student Users 1-1,text,true,,466,235,20,20,http://localhost:4000/api/students/90000062,2,0,0
+1791115116123,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-1,,true,,1389,701,20,20,null,7,4453,0
+1791115120689,4,02 Create Student,201,Created,Student Users 1-11,text,true,,459,292,20,20,http://localhost:4000/api/students,4,0,0
+1791115120841,3,01 List Students,200,OK,Student Users 1-20,text,true,,5966,160,20,20,http://localhost:4000/api/students,3,0,0
+1791115120895,3,02 Create Student,201,Created,Student Users 1-7,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115120915,1,07 Delete Student,204,No Content,Student Users 1-4,,true,,166,191,20,20,http://localhost:4000/api/students/90000061,0,0,0
+1791115120956,1,01 List Students,200,OK,Student Users 1-19,text,true,,5964,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115120993,2,04 View Created Student,200,OK,Student Users 1-3,text,true,,452,169,20,20,http://localhost:4000/api/students/90000063,2,0,0
+1791115120996,1,06 Payment Status (auth),200,OK,Student Users 1-17,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115121085,3,02 Create Student,201,Created,Student Users 1-9,text,true,,456,289,20,20,http://localhost:4000/api/students,3,0,0
+1791115121226,2,04 View Created Student,200,OK,Student Users 1-2,text,true,,448,169,20,20,http://localhost:4000/api/students/90000066,2,0,0
+1791115121246,13,04 View Created Student,200,OK,Student Users 1-10,text,true,,454,169,20,20,http://localhost:4000/api/students/90000067,13,0,0
+1791115121252,9,02 Create Student,201,Created,Student Users 1-13,text,true,,457,290,20,20,http://localhost:4000/api/students,9,0,0
+1791115121313,2,06 Payment Status (auth),200,OK,Student Users 1-15,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,2,0,0
+1791115121342,4,05 Update Student,200,OK,Student Users 1-6,text,true,,454,225,20,20,http://localhost:4000/api/students/90000064,4,0,0
+1791115117023,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-6,,true,,1373,689,20,20,null,8,4315,0
+1791115121437,2,03 View Student by ID,200,OK,Student Users 1-16,text,true,,456,169,20,20,http://localhost:4000/api/students/20250018,2,0,0
+1791115121629,7,04 View Created Student,200,OK,Student Users 1-14,text,true,,460,169,20,20,http://localhost:4000/api/students/90000072,7,0,0
+1791115121728,0,06 Payment Status (auth),200,OK,Student Users 1-12,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115121775,4,05 Update Student,200,OK,Student Users 1-5,text,true,,461,233,20,20,http://localhost:4000/api/students/90000065,4,0,0
+1791115117475,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-5,,true,,1392,703,20,20,null,9,4295,0
+1791115121870,3,07 Delete Student,204,No Content,Student Users 1-1,,true,,166,191,20,20,http://localhost:4000/api/students/90000062,0,0,0
+1791115121987,1,04 View Created Student,200,OK,Student Users 1-8,text,true,,461,169,20,20,http://localhost:4000/api/students/90000068,1,0,0
+1791115122122,2,01 List Students,200,OK,Student Users 1-4,text,true,,6129,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115122165,1,03 View Student by ID,200,OK,Student Users 1-20,text,true,,454,169,20,20,http://localhost:4000/api/students/20250019,1,0,0
+1791115122220,1,03 View Student by ID,200,OK,Student Users 1-18,text,true,,458,169,20,20,http://localhost:4000/api/students/20250017,1,0,0
+1791115122320,1,04 View Created Student,200,OK,Student Users 1-11,text,true,,454,169,20,20,http://localhost:4000/api/students/90000073,1,0,0
+1791115122375,1,05 Update Student,200,OK,Student Users 1-2,text,true,,450,223,20,20,http://localhost:4000/api/students/90000066,1,0,0
+1791115118232,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-2,,true,,1351,678,20,20,null,6,4138,0
+1791115122456,3,07 Delete Student,204,No Content,Student Users 1-6,,true,,166,191,20,20,http://localhost:4000/api/students/90000064,0,0,0
+1791115122459,1,03 View Student by ID,200,OK,Student Users 1-19,text,true,,459,169,20,20,http://localhost:4000/api/students/20250020,1,0,0
+1791115122461,1,02 Create Student,201,Created,Student Users 1-17,text,true,,462,295,20,20,http://localhost:4000/api/students,1,0,0
+1791115122648,1,04 View Created Student,200,OK,Student Users 1-7,text,true,,454,169,20,20,http://localhost:4000/api/students/90000069,1,0,0
+1791115122727,0,06 Payment Status (auth),200,OK,Student Users 1-16,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115122738,3,05 Update Student,200,OK,Student Users 1-14,text,true,,467,235,20,20,http://localhost:4000/api/students/90000072,3,0,0
+1791115118871,14,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-14,,true,,1392,702,20,20,null,14,3855,0
+1791115122745,1,02 Create Student,201,Created,Student Users 1-15,text,true,,457,290,20,20,http://localhost:4000/api/students,1,0,0
+1791115122791,1,05 Update Student,200,OK,Student Users 1-3,text,true,,450,221,20,20,http://localhost:4000/api/students/90000063,1,0,0
+1791115117538,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-3,,true,,1359,680,20,20,null,6,5248,0
+1791115122884,2,04 View Created Student,200,OK,Student Users 1-9,text,true,,451,169,20,20,http://localhost:4000/api/students/90000070,2,0,0
+1791115123023,4,02 Create Student,201,Created,Student Users 1-12,text,true,,464,297,20,20,http://localhost:4000/api/students,4,0,0
+1791115123198,1,04 View Created Student,200,OK,Student Users 1-13,text,true,,452,169,20,20,http://localhost:4000/api/students/90000071,1,0,0
+1791115123201,3,05 Update Student,200,OK,Student Users 1-10,text,true,,450,221,20,20,http://localhost:4000/api/students/90000067,3,0,0
+1791115118145,20,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-10,,true,,1363,682,20,20,null,20,5038,0
+1791115123237,1,01 List Students,200,OK,Student Users 1-1,text,true,,6512,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115123284,1,06 Payment Status (auth),200,OK,Student Users 1-20,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115123307,1,06 Payment Status (auth),200,OK,Student Users 1-18,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115123433,3,07 Delete Student,204,No Content,Student Users 1-5,,true,,166,191,20,20,http://localhost:4000/api/students/90000065,0,0,0
+1791115123487,1,01 List Students,200,OK,Student Users 1-6,text,true,,6318,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115123542,3,05 Update Student,200,OK,Student Users 1-11,text,true,,456,228,20,20,http://localhost:4000/api/students/90000073,3,0,0
+1791115119123,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-11,,true,,1369,689,20,20,null,8,4414,0
+1791115123753,1,06 Payment Status (auth),200,OK,Student Users 1-19,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115123790,4,05 Update Student,200,OK,Student Users 1-8,text,true,,454,226,20,20,http://localhost:4000/api/students/90000068,4,0,0
+1791115118384,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-8,,true,,1381,694,20,20,null,6,5403,0
+1791115123818,1,03 View Student by ID,200,OK,Student Users 1-4,text,true,,455,169,20,20,http://localhost:4000/api/students/20250001,1,0,0
+1791115123854,4,05 Update Student,200,OK,Student Users 1-7,text,true,,459,228,20,20,http://localhost:4000/api/students/90000069,4,0,0
+1791115119078,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-7,,true,,1372,689,20,20,null,8,4772,0
+1791115123875,2,02 Create Student,201,Created,Student Users 1-16,text,true,,453,286,20,20,http://localhost:4000/api/students,2,0,0
+1791115124130,2,05 Update Student,200,OK,Student Users 1-9,text,true,,453,223,20,20,http://localhost:4000/api/students/90000070,2,0,0
+1791115119175,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-9,,true,,1360,681,20,20,null,7,4949,0
+1791115124133,3,07 Delete Student,204,No Content,Student Users 1-2,,true,,166,191,20,20,http://localhost:4000/api/students/90000066,0,0,0
+1791115124164,2,07 Delete Student,204,No Content,Student Users 1-3,,true,,166,191,20,20,http://localhost:4000/api/students/90000063,0,0,0
+1791115124219,1,04 View Created Student,200,OK,Student Users 1-17,text,true,,457,169,20,20,http://localhost:4000/api/students/90000076,1,0,0
+1791115124236,1,04 View Created Student,200,OK,Student Users 1-12,text,true,,459,169,20,20,http://localhost:4000/api/students/90000074,1,0,0
+1791115124412,1,04 View Created Student,200,OK,Student Users 1-15,text,true,,452,169,20,20,http://localhost:4000/api/students/90000075,1,0,0
+1791115124596,3,07 Delete Student,204,No Content,Student Users 1-14,,true,,166,191,20,20,http://localhost:4000/api/students/90000072,0,0,0
+1791115124602,2,05 Update Student,200,OK,Student Users 1-13,text,true,,454,228,20,20,http://localhost:4000/api/students/90000071,2,0,0
+1791115119661,12,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-13,,true,,1363,687,20,20,null,12,4930,0
+1791115124671,1,03 View Student by ID,200,OK,Student Users 1-6,text,true,,456,169,20,20,http://localhost:4000/api/students/20250003,1,0,0
+1791115124798,1,03 View Student by ID,200,OK,Student Users 1-1,text,true,,455,169,20,20,http://localhost:4000/api/students/20250002,1,0,0
+1791115124856,3,07 Delete Student,204,No Content,Student Users 1-11,,true,,166,191,20,20,http://localhost:4000/api/students/90000073,0,0,0
+1791115124949,1,07 Delete Student,204,No Content,Student Users 1-7,,true,,166,191,20,20,http://localhost:4000/api/students/90000069,0,0,0
+1791115125085,2,07 Delete Student,204,No Content,Student Users 1-10,,true,,166,191,20,20,http://localhost:4000/api/students/90000067,0,0,0
+1791115125107,1,02 Create Student,201,Created,Student Users 1-18,text,true,,468,301,20,20,http://localhost:4000/api/students,1,0,0
+1791115125134,1,02 Create Student,201,Created,Student Users 1-20,text,true,,459,292,20,20,http://localhost:4000/api/students,1,0,0
+1791115125283,1,01 List Students,200,OK,Student Users 1-5,text,true,,5756,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115125289,3,07 Delete Student,204,No Content,Student Users 1-9,,true,,166,191,20,20,http://localhost:4000/api/students/90000070,0,0,0
+1791115125321,1,04 View Created Student,200,OK,Student Users 1-16,text,true,,448,169,20,20,http://localhost:4000/api/students/90000078,1,0,0
+1791115125412,3,05 Update Student,200,OK,Student Users 1-17,text,true,,454,225,20,20,http://localhost:4000/api/students/90000076,3,0,0
+1791115120997,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-17,,true,,1373,689,20,20,null,5,4412,0
+1791115125422,1,06 Payment Status (auth),200,OK,Student Users 1-4,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115125432,2,05 Update Student,200,OK,Student Users 1-15,text,true,,450,221,20,20,http://localhost:4000/api/students/90000075,2,0,0
+1791115121315,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-15,,true,,1359,680,20,20,null,4,4114,0
+1791115125565,4,02 Create Student,201,Created,Student Users 1-19,text,true,,466,299,20,20,http://localhost:4000/api/students,4,0,0
+1791115125662,3,07 Delete Student,204,No Content,Student Users 1-8,,true,,166,191,20,20,http://localhost:4000/api/students/90000068,0,0,0
+1791115125839,11,05 Update Student,200,OK,Student Users 1-12,text,true,,466,235,20,20,http://localhost:4000/api/students/90000074,11,0,0
+1791115121728,16,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-12,,true,,1389,701,20,20,null,16,4105,0
+1791115125888,0,06 Payment Status (auth),200,OK,Student Users 1-1,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115125888,1,01 List Students,200,OK,Student Users 1-3,text,true,,5579,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115125913,1,01 List Students,200,OK,Student Users 1-14,text,true,,5579,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115125954,1,01 List Students,200,OK,Student Users 1-2,text,true,,5579,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115126013,1,01 List Students,200,OK,Student Users 1-7,text,true,,5579,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115126130,1,01 List Students,200,OK,Student Users 1-11,text,true,,5579,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115126370,1,01 List Students,200,OK,Student Users 1-10,text,true,,5579,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115126403,3,07 Delete Student,204,No Content,Student Users 1-13,,true,,166,191,20,20,http://localhost:4000/api/students/90000071,0,0,0
+1791115126452,2,04 View Created Student,200,OK,Student Users 1-18,text,true,,463,169,20,20,http://localhost:4000/api/students/90000077,2,0,0
+1791115126453,1,07 Delete Student,204,No Content,Student Users 1-15,,true,,166,191,20,20,http://localhost:4000/api/students/90000075,0,0,0
+1791115126454,0,04 View Created Student,200,OK,Student Users 1-20,text,true,,454,169,20,20,http://localhost:4000/api/students/90000079,0,0,0
+1791115126491,0,06 Payment Status (auth),200,OK,Student Users 1-6,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115126568,1,03 View Student by ID,200,OK,Student Users 1-5,text,true,,456,169,20,20,http://localhost:4000/api/students/20250004,1,0,0
+1791115126803,5,07 Delete Student,204,No Content,Student Users 1-17,,true,,166,191,20,20,http://localhost:4000/api/students/90000076,0,0,0
+1791115126843,2,01 List Students,200,OK,Student Users 1-8,text,true,,5022,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115126970,4,02 Create Student,201,Created,Student Users 1-1,text,true,,456,289,20,20,http://localhost:4000/api/students,4,0,0
+1791115126979,1,05 Update Student,200,OK,Student Users 1-16,text,true,,450,223,20,20,http://localhost:4000/api/students/90000078,1,0,0
+1791115122727,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-16,,true,,1351,678,20,20,null,4,4250,0
+1791115127000,2,02 Create Student,201,Created,Student Users 1-4,text,true,,459,292,20,20,http://localhost:4000/api/students,2,0,0
+1791115127048,1,04 View Created Student,200,OK,Student Users 1-19,text,true,,461,169,20,20,http://localhost:4000/api/students/90000080,1,0,0
+1791115127082,1,03 View Student by ID,200,OK,Student Users 1-14,text,true,,458,169,20,20,http://localhost:4000/api/students/20250007,1,0,0
+1791115127097,1,01 List Students,200,OK,Student Users 1-9,text,true,,5395,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115127168,1,03 View Student by ID,200,OK,Student Users 1-11,text,true,,457,169,20,20,http://localhost:4000/api/students/20250008,1,0,0
+1791115127209,1,03 View Student by ID,200,OK,Student Users 1-3,text,true,,459,169,20,20,http://localhost:4000/api/students/20250006,1,0,0
+1791115127704,1,03 View Student by ID,200,OK,Student Users 1-2,text,true,,455,169,20,20,http://localhost:4000/api/students/20250005,1,0,0
+1791115127729,3,05 Update Student,200,OK,Student Users 1-20,text,true,,450,221,20,20,http://localhost:4000/api/students/90000079,3,0,0
+1791115123285,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-20,,true,,1363,682,20,20,null,4,4443,0
+1791115127742,1,01 List Students,200,OK,Student Users 1-15,text,true,,5391,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115127751,3,07 Delete Student,204,No Content,Student Users 1-12,,true,,166,191,20,20,http://localhost:4000/api/students/90000074,0,0,0
+1791115127770,1,01 List Students,200,OK,Student Users 1-13,text,true,,5192,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115127975,1,03 View Student by ID,200,OK,Student Users 1-10,text,true,,459,169,20,20,http://localhost:4000/api/students/20250010,1,0,0
+1791115127978,0,03 View Student by ID,200,OK,Student Users 1-7,text,true,,456,169,20,20,http://localhost:4000/api/students/20250009,0,0,0
+1791115127994,3,02 Create Student,201,Created,Student Users 1-6,text,true,,457,290,20,20,http://localhost:4000/api/students,3,0,0
+1791115128122,0,06 Payment Status (auth),200,OK,Student Users 1-14,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115128151,1,04 View Created Student,200,OK,Student Users 1-4,text,true,,454,169,20,20,http://localhost:4000/api/students/90000081,1,0,0
+1791115128182,4,05 Update Student,200,OK,Student Users 1-18,text,true,,461,233,20,20,http://localhost:4000/api/students/90000077,4,0,0
+1791115123308,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-18,,true,,1392,703,20,20,null,7,4871,0
+1791115128433,1,06 Payment Status (auth),200,OK,Student Users 1-5,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115128464,1,03 View Student by ID,200,OK,Student Users 1-9,text,true,,454,169,20,20,http://localhost:4000/api/students/20250011,1,0,0
+1791115128579,1,01 List Students,200,OK,Student Users 1-17,text,true,,5375,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115128608,3,07 Delete Student,204,No Content,Student Users 1-16,,true,,166,191,20,20,http://localhost:4000/api/students/90000078,0,0,0
+1791115128633,2,03 View Student by ID,200,OK,Student Users 1-8,text,true,,459,169,20,20,http://localhost:4000/api/students/20250012,2,0,0
+1791115128694,1,04 View Created Student,200,OK,Student Users 1-1,text,true,,451,169,20,20,http://localhost:4000/api/students/90000082,1,0,0
+1791115128715,0,06 Payment Status (auth),200,OK,Student Users 1-3,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115128745,0,06 Payment Status (auth),200,OK,Student Users 1-11,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115128769,2,01 List Students,200,OK,Student Users 1-12,text,true,,5192,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115128801,3,05 Update Student,200,OK,Student Users 1-19,text,true,,454,226,20,20,http://localhost:4000/api/students/90000080,3,0,0
+1791115123754,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-19,,true,,1381,694,20,20,null,8,5042,0
+1791115129059,1,03 View Student by ID,200,OK,Student Users 1-15,text,true,,456,169,20,20,http://localhost:4000/api/students/20250014,1,0,0
+1791115129131,1,03 View Student by ID,200,OK,Student Users 1-13,text,true,,457,169,20,20,http://localhost:4000/api/students/20250013,1,0,0
+1791115129379,1,06 Payment Status (auth),200,OK,Student Users 1-7,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115129458,1,07 Delete Student,204,No Content,Student Users 1-20,,true,,166,191,20,20,http://localhost:4000/api/students/90000079,0,0,0
+1791115129559,1,06 Payment Status (auth),200,OK,Student Users 1-2,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115129609,1,05 Update Student,200,OK,Student Users 1-4,text,true,,459,228,20,20,http://localhost:4000/api/students/90000081,1,0,0
+1791115125423,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-4,,true,,1372,689,20,20,null,4,4184,0
+1791115129669,3,02 Create Student,201,Created,Student Users 1-14,text,true,,457,290,20,20,http://localhost:4000/api/students,2,0,0
+1791115129736,1,04 View Created Student,200,OK,Student Users 1-6,text,true,,452,169,20,20,http://localhost:4000/api/students/90000083,1,0,0
+1791115129858,0,06 Payment Status (auth),200,OK,Student Users 1-10,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115129928,0,06 Payment Status (auth),200,OK,Student Users 1-8,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115129973,3,07 Delete Student,204,No Content,Student Users 1-18,,true,,166,191,20,20,http://localhost:4000/api/students/90000077,0,0,0
+1791115129980,1,03 View Student by ID,200,OK,Student Users 1-12,text,true,,459,169,20,20,http://localhost:4000/api/students/20250016,1,0,0
+1791115130022,1,03 View Student by ID,200,OK,Student Users 1-17,text,true,,455,169,20,20,http://localhost:4000/api/students/20250015,1,0,0
+1791115130070,3,02 Create Student,201,Created,Student Users 1-5,text,true,,465,298,20,20,http://localhost:4000/api/students,3,0,0
+1791115130225,4,05 Update Student,200,OK,Student Users 1-1,text,true,,453,223,20,20,http://localhost:4000/api/students/90000082,4,0,0
+1791115125888,9,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-1,,true,,1360,681,20,20,null,9,4332,0
+1791115130298,3,02 Create Student,201,Created,Student Users 1-11,text,true,,462,295,20,20,http://localhost:4000/api/students,3,0,0
+1791115130341,1,02 Create Student,201,Created,Student Users 1-3,text,true,,464,297,20,20,http://localhost:4000/api/students,1,0,0
+1791115130436,0,06 Payment Status (auth),200,OK,Student Users 1-9,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115130552,3,02 Create Student,201,Created,Student Users 1-7,text,true,,468,301,20,20,http://localhost:4000/api/students,3,0,0
+1791115130577,1,01 List Students,200,OK,Student Users 1-16,text,true,,5771,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115130613,0,06 Payment Status (auth),200,OK,Student Users 1-15,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115130671,60,02 Create Student,201,Created,Student Users 1-2,text,true,,459,292,20,20,http://localhost:4000/api/students,60,0,0
+1791115130761,1,07 Delete Student,204,No Content,Student Users 1-19,,true,,166,191,20,20,http://localhost:4000/api/students/90000080,0,0,0
+1791115130773,1,01 List Students,200,OK,Student Users 1-20,text,true,,5771,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115131082,1,06 Payment Status (auth),200,OK,Student Users 1-13,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115131106,3,02 Create Student,201,Created,Student Users 1-8,text,true,,466,299,20,20,http://localhost:4000/api/students,3,0,0
+1791115131184,4,05 Update Student,200,OK,Student Users 1-6,text,true,,454,228,20,20,http://localhost:4000/api/students/90000083,4,0,0
+1791115126491,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-6,,true,,1363,687,20,20,null,8,4689,0
+1791115131203,1,06 Payment Status (auth),200,OK,Student Users 1-12,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115131259,3,02 Create Student,201,Created,Student Users 1-10,text,true,,453,286,20,20,http://localhost:4000/api/students,3,0,0
+1791115131300,1,01 List Students,200,OK,Student Users 1-18,text,true,,6148,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115131375,3,07 Delete Student,204,No Content,Student Users 1-4,,true,,166,191,20,20,http://localhost:4000/api/students/90000081,0,0,0
+1791115131500,1,04 View Created Student,200,OK,Student Users 1-14,text,true,,452,169,20,20,http://localhost:4000/api/students/90000087,1,0,0
+1791115131595,0,06 Payment Status (auth),200,OK,Student Users 1-17,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115131611,1,04 View Created Student,200,OK,Student Users 1-11,text,true,,457,169,20,20,http://localhost:4000/api/students/90000088,1,0,0
+1791115131690,1,04 View Created Student,200,OK,Student Users 1-3,text,true,,459,169,20,20,http://localhost:4000/api/students/90000086,1,0,0
+1791115131957,1,03 View Student by ID,200,OK,Student Users 1-16,text,true,,458,169,20,20,http://localhost:4000/api/students/20250017,1,0,0
+1791115132020,2,07 Delete Student,204,No Content,Student Users 1-1,,true,,166,191,20,20,http://localhost:4000/api/students/90000082,0,0,0
+1791115132042,1,04 View Created Student,200,OK,Student Users 1-5,text,true,,460,169,20,20,http://localhost:4000/api/students/90000084,1,0,0
+1791115132128,3,02 Create Student,201,Created,Student Users 1-13,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115132171,1,01 List Students,200,OK,Student Users 1-19,text,true,,5957,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115132230,1,04 View Created Student,200,OK,Student Users 1-7,text,true,,463,169,20,20,http://localhost:4000/api/students/90000089,1,0,0
+1791115132384,1,03 View Student by ID,200,OK,Student Users 1-18,text,true,,454,169,20,20,http://localhost:4000/api/students/20250019,1,0,0
+1791115132413,3,02 Create Student,201,Created,Student Users 1-9,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115132443,0,02 Create Student,201,Created,Student Users 1-15,text,true,,456,289,20,20,http://localhost:4000/api/students,0,0,0
+1791115132521,1,04 View Created Student,200,OK,Student Users 1-2,text,true,,454,169,20,20,http://localhost:4000/api/students/90000085,1,0,0
+1791115132535,3,07 Delete Student,204,No Content,Student Users 1-6,,true,,166,191,20,20,http://localhost:4000/api/students/90000083,0,0,0
+1791115132590,1,03 View Student by ID,200,OK,Student Users 1-20,text,true,,456,169,20,20,http://localhost:4000/api/students/20250018,1,0,0
+1791115132699,6,05 Update Student,200,OK,Student Users 1-14,text,true,,450,221,20,20,http://localhost:4000/api/students/90000087,6,0,0
+1791115128123,10,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-14,,true,,1359,680,20,20,null,9,4573,0
+1791115132755,1,04 View Created Student,200,OK,Student Users 1-10,text,true,,448,169,20,20,http://localhost:4000/api/students/90000090,1,0,0
+1791115132897,1,04 View Created Student,200,OK,Student Users 1-8,text,true,,461,169,20,20,http://localhost:4000/api/students/90000092,1,0,0
+1791115133045,3,02 Create Student,201,Created,Student Users 1-12,text,true,,465,298,20,20,http://localhost:4000/api/students,3,0,0
+1791115133204,1,01 List Students,200,OK,Student Users 1-4,text,true,,6332,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115133362,1,03 View Student by ID,200,OK,Student Users 1-19,text,true,,459,169,20,20,http://localhost:4000/api/students/20250020,1,0,0
+1791115133509,4,05 Update Student,200,OK,Student Users 1-3,text,true,,466,235,20,20,http://localhost:4000/api/students/90000086,4,0,0
+1791115128715,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-3,,true,,1389,701,20,20,null,6,4793,0
+1791115133534,1,02 Create Student,201,Created,Student Users 1-17,text,true,,457,290,20,20,http://localhost:4000/api/students,1,0,0
+1791115133589,2,05 Update Student,200,OK,Student Users 1-11,text,true,,454,225,20,20,http://localhost:4000/api/students/90000088,2,0,0
+1791115128745,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-11,,true,,1373,689,20,20,null,6,4841,0
+1791115133593,1,05 Update Student,200,OK,Student Users 1-7,text,true,,461,233,20,20,http://localhost:4000/api/students/90000089,1,0,0
+1791115129380,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-7,,true,,1392,703,20,20,null,5,4210,0
+1791115133633,0,06 Payment Status (auth),200,OK,Student Users 1-16,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115133734,1,01 List Students,200,OK,Student Users 1-6,text,true,,6519,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115133752,1,06 Payment Status (auth),200,OK,Student Users 1-18,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115133783,1,01 List Students,200,OK,Student Users 1-1,text,true,,6519,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115133894,3,05 Update Student,200,OK,Student Users 1-5,text,true,,467,235,20,20,http://localhost:4000/api/students/90000084,3,0,0
+1791115128434,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-5,,true,,1392,702,20,20,null,7,5457,0
+1791115133899,1,05 Update Student,200,OK,Student Users 1-10,text,true,,450,223,20,20,http://localhost:4000/api/students/90000090,1,0,0
+1791115129858,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-10,,true,,1351,678,20,20,null,5,4038,0
+1791115134007,1,04 View Created Student,200,OK,Student Users 1-13,text,true,,454,169,20,20,http://localhost:4000/api/students/90000093,1,0,0
+1791115134053,2,04 View Created Student,200,OK,Student Users 1-15,text,true,,451,169,20,20,http://localhost:4000/api/students/90000094,2,0,0
+1791115134158,1,04 View Created Student,200,OK,Student Users 1-9,text,true,,454,169,20,20,http://localhost:4000/api/students/90000091,1,0,0
+1791115134224,1,04 View Created Student,200,OK,Student Users 1-12,text,true,,460,169,20,20,http://localhost:4000/api/students/90000096,1,0,0
+1791115134300,4,07 Delete Student,204,No Content,Student Users 1-14,,true,,166,191,20,20,http://localhost:4000/api/students/90000087,0,0,0
+1791115134494,3,05 Update Student,200,OK,Student Users 1-2,text,true,,456,228,20,20,http://localhost:4000/api/students/90000085,3,0,0
+1791115129560,64,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-2,,true,,1369,689,20,20,null,64,4874,0
+1791115134511,0,06 Payment Status (auth),200,OK,Student Users 1-20,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115134532,2,05 Update Student,200,OK,Student Users 1-8,text,true,,454,226,20,20,http://localhost:4000/api/students/90000092,2,0,0
+1791115129928,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-8,,true,,1381,694,20,20,null,6,4601,0
+1791115134618,3,07 Delete Student,204,No Content,Student Users 1-3,,true,,166,191,20,20,http://localhost:4000/api/students/90000086,0,0,0
+1791115134624,1,03 View Student by ID,200,OK,Student Users 1-4,text,true,,455,169,20,20,http://localhost:4000/api/students/20250001,1,0,0
+1791115134719,3,02 Create Student,201,Created,Student Users 1-16,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115134740,0,06 Payment Status (auth),200,OK,Student Users 1-19,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115135026,3,02 Create Student,201,Created,Student Users 1-18,text,true,,457,290,20,20,http://localhost:4000/api/students,3,0,0
+1791115135073,2,05 Update Student,200,OK,Student Users 1-15,text,true,,453,223,20,20,http://localhost:4000/api/students/90000094,2,0,0
+1791115130613,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-15,,true,,1360,681,20,20,null,4,4459,0
+1791115135147,2,07 Delete Student,204,No Content,Student Users 1-7,,true,,166,191,20,20,http://localhost:4000/api/students/90000089,0,0,0
+1791115135208,1,03 View Student by ID,200,OK,Student Users 1-1,text,true,,455,169,20,20,http://localhost:4000/api/students/20250002,1,0,0
+1791115135317,4,07 Delete Student,204,No Content,Student Users 1-11,,true,,166,191,20,20,http://localhost:4000/api/students/90000088,0,0,0
+1791115135343,2,05 Update Student,200,OK,Student Users 1-9,text,true,,450,221,20,20,http://localhost:4000/api/students/90000091,2,0,0
+1791115130436,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-9,,true,,1363,682,20,20,null,6,4904,0
+1791115135384,1,07 Delete Student,204,No Content,Student Users 1-5,,true,,166,191,20,20,http://localhost:4000/api/students/90000084,0,0,0
+1791115135531,1,04 View Created Student,200,OK,Student Users 1-17,text,true,,452,169,20,20,http://localhost:4000/api/students/90000095,1,0,0
+1791115135553,1,03 View Student by ID,200,OK,Student Users 1-6,text,true,,456,169,20,20,http://localhost:4000/api/students/20250003,1,0,0
+1791115135605,3,02 Create Student,201,Created,Student Users 1-20,text,true,,464,297,20,20,http://localhost:4000/api/students,3,0,0
+1791115135618,2,05 Update Student,200,OK,Student Users 1-12,text,true,,467,235,20,20,http://localhost:4000/api/students/90000096,2,0,0
+1791115131204,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-12,,true,,1392,702,20,20,null,6,4411,0
+1791115135771,1,05 Update Student,200,OK,Student Users 1-13,text,true,,459,228,20,20,http://localhost:4000/api/students/90000093,1,0,0
+1791115131083,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-13,,true,,1372,689,20,20,null,5,4685,0
+1791115135795,1,07 Delete Student,204,No Content,Student Users 1-10,,true,,166,191,20,20,http://localhost:4000/api/students/90000090,0,0,0
+1791115135916,1,01 List Students,200,OK,Student Users 1-3,text,true,,5951,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115136064,1,01 List Students,200,OK,Student Users 1-14,text,true,,5951,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115136094,3,02 Create Student,201,Created,Student Users 1-19,text,true,,462,295,20,20,http://localhost:4000/api/students,3,0,0
+1791115136165,3,07 Delete Student,204,No Content,Student Users 1-15,,true,,166,191,20,20,http://localhost:4000/api/students/90000094,0,0,0
+1791115136240,1,06 Payment Status (auth),200,OK,Student Users 1-1,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115136246,1,04 View Created Student,200,OK,Student Users 1-16,text,true,,454,169,20,20,http://localhost:4000/api/students/90000097,1,0,0
+1791115136309,4,07 Delete Student,204,No Content,Student Users 1-2,,true,,166,191,20,20,http://localhost:4000/api/students/90000085,0,0,0
+1791115136368,1,04 View Created Student,200,OK,Student Users 1-18,text,true,,452,169,20,20,http://localhost:4000/api/students/90000099,1,0,0
+1791115136482,1,07 Delete Student,204,No Content,Student Users 1-8,,true,,166,191,20,20,http://localhost:4000/api/students/90000092,0,0,0
+1791115136549,2,01 List Students,200,OK,Student Users 1-7,text,true,,5579,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115136550,1,06 Payment Status (auth),200,OK,Student Users 1-4,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115136769,3,07 Delete Student,204,No Content,Student Users 1-9,,true,,166,191,20,20,http://localhost:4000/api/students/90000091,0,0,0
+1791115136816,1,01 List Students,200,OK,Student Users 1-10,text,true,,5396,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115136839,7,04 View Created Student,200,OK,Student Users 1-20,text,true,,459,169,20,20,http://localhost:4000/api/students/90000098,7,0,0
+1791115136912,2,01 List Students,200,OK,Student Users 1-5,text,true,,5396,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115137121,1,01 List Students,200,OK,Student Users 1-11,text,true,,5396,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115137128,1,06 Payment Status (auth),200,OK,Student Users 1-6,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115137263,3,05 Update Student,200,OK,Student Users 1-17,text,true,,454,228,20,20,http://localhost:4000/api/students/90000095,3,0,0
+1791115131595,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-17,,true,,1363,687,20,20,null,5,5667,0
+1791115137358,1,03 View Student by ID,200,OK,Student Users 1-14,text,true,,456,169,20,20,http://localhost:4000/api/students/20250004,1,0,0
+1791115137363,2,07 Delete Student,204,No Content,Student Users 1-12,,true,,166,191,20,20,http://localhost:4000/api/students/90000096,0,0,0
+1791115137421,1,07 Delete Student,204,No Content,Student Users 1-13,,true,,166,191,20,20,http://localhost:4000/api/students/90000093,0,0,0
+1791115137453,1,01 List Students,200,OK,Student Users 1-2,text,true,,5006,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115137520,1,03 View Student by ID,200,OK,Student Users 1-3,text,true,,455,169,20,20,http://localhost:4000/api/students/20250005,1,0,0
+1791115137529,1,01 List Students,200,OK,Student Users 1-15,text,true,,5006,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115137596,3,02 Create Student,201,Created,Student Users 1-4,text,true,,468,301,20,20,http://localhost:4000/api/students,3,0,0
+1791115137751,1,04 View Created Student,200,OK,Student Users 1-19,text,true,,457,169,20,20,http://localhost:4000/api/students/90000100,1,0,0
+1791115137774,1,03 View Student by ID,200,OK,Student Users 1-7,text,true,,459,169,20,20,http://localhost:4000/api/students/20250006,1,0,0
+1791115137805,1,01 List Students,200,OK,Student Users 1-9,text,true,,5202,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115137980,1,03 View Student by ID,200,OK,Student Users 1-5,text,true,,457,169,20,20,http://localhost:4000/api/students/20250008,1,0,0
+1791115137983,1,05 Update Student,200,OK,Student Users 1-18,text,true,,450,221,20,20,http://localhost:4000/api/students/90000099,1,0,0
+1791115133753,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-18,,true,,1359,680,20,20,null,5,4226,0
+1791115138007,2,05 Update Student,200,OK,Student Users 1-16,text,true,,456,228,20,20,http://localhost:4000/api/students/90000097,2,0,0
+1791115133633,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-16,,true,,1369,689,20,20,null,6,4370,0
+1791115138013,1,01 List Students,200,OK,Student Users 1-8,text,true,,5202,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115138067,1,02 Create Student,201,Created,Student Users 1-1,text,true,,453,286,20,20,http://localhost:4000/api/students,1,0,0
+1791115138276,8,05 Update Student,200,OK,Student Users 1-20,text,true,,466,235,20,20,http://localhost:4000/api/students/90000098,8,0,0
+1791115134511,18,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-20,,true,,1389,701,20,20,null,18,3755,0
+1791115138290,1,07 Delete Student,204,No Content,Student Users 1-17,,true,,166,191,20,20,http://localhost:4000/api/students/90000095,0,0,0
+1791115138438,2,03 View Student by ID,200,OK,Student Users 1-10,text,true,,456,169,20,20,http://localhost:4000/api/students/20250009,2,0,0
+1791115138447,3,02 Create Student,201,Created,Student Users 1-6,text,true,,459,292,20,20,http://localhost:4000/api/students,3,0,0
+1791115138732,1,06 Payment Status (auth),200,OK,Student Users 1-14,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115138890,1,05 Update Student,200,OK,Student Users 1-19,text,true,,454,225,20,20,http://localhost:4000/api/students/90000100,1,0,0
+1791115134740,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-19,,true,,1373,689,20,20,null,5,4146,0
+1791115138958,1,03 View Student by ID,200,OK,Student Users 1-11,text,true,,458,169,20,20,http://localhost:4000/api/students/20250007,1,0,0
+1791115138972,0,01 List Students,200,OK,Student Users 1-12,text,true,,5387,160,20,20,http://localhost:4000/api/students,0,0,0
+1791115139075,1,03 View Student by ID,200,OK,Student Users 1-15,text,true,,459,169,20,20,http://localhost:4000/api/students/20250010,1,0,0
+1791115139148,1,06 Payment Status (auth),200,OK,Student Users 1-7,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115139237,0,06 Payment Status (auth),200,OK,Student Users 1-3,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115139262,1,03 View Student by ID,200,OK,Student Users 1-8,text,true,,459,169,20,20,http://localhost:4000/api/students/20250012,1,0,0
+1791115139287,2,03 View Student by ID,200,OK,Student Users 1-2,text,true,,454,169,20,20,http://localhost:4000/api/students/20250011,2,0,2
+1791115139293,1,01 List Students,200,OK,Student Users 1-13,text,true,,5387,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115139385,3,07 Delete Student,204,No Content,Student Users 1-18,,true,,166,191,20,20,http://localhost:4000/api/students/90000099,0,0,0
+1791115139431,3,04 View Created Student,200,OK,Student Users 1-1,text,true,,448,169,20,20,http://localhost:4000/api/students/90000102,3,0,1
+1791115139466,1,04 View Created Student,200,OK,Student Users 1-4,text,true,,463,169,20,20,http://localhost:4000/api/students/90000101,1,0,0
+1791115139498,1,03 View Student by ID,200,OK,Student Users 1-9,text,true,,457,169,20,20,http://localhost:4000/api/students/20250013,1,0,0
+1791115139515,1,06 Payment Status (auth),200,OK,Student Users 1-5,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115139611,3,07 Delete Student,204,No Content,Student Users 1-20,,true,,166,191,20,20,http://localhost:4000/api/students/90000098,0,0,0
+1791115139855,2,01 List Students,200,OK,Student Users 1-17,text,true,,5005,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115140007,2,07 Delete Student,204,No Content,Student Users 1-16,,true,,166,191,20,20,http://localhost:4000/api/students/90000097,0,0,0
+1791115140087,1,06 Payment Status (auth),200,OK,Student Users 1-15,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115140158,0,06 Payment Status (auth),200,OK,Student Users 1-11,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115140249,1,07 Delete Student,204,No Content,Student Users 1-19,,true,,166,191,20,20,http://localhost:4000/api/students/90000100,0,0,0
+1791115140262,1,02 Create Student,201,Created,Student Users 1-7,text,true,,456,289,20,20,http://localhost:4000/api/students,1,0,0
+1791115140380,3,02 Create Student,201,Created,Student Users 1-14,text,true,,466,299,20,20,http://localhost:4000/api/students,3,0,0
+1791115140406,1,06 Payment Status (auth),200,OK,Student Users 1-10,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115140382,36,04 View Created Student,200,OK,Student Users 1-6,text,true,,454,169,20,20,http://localhost:4000/api/students/90000103,36,0,0
+1791115140525,1,03 View Student by ID,200,OK,Student Users 1-12,text,true,,456,169,20,20,http://localhost:4000/api/students/20250014,1,0,0
+1791115140754,1,06 Payment Status (auth),200,OK,Student Users 1-9,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115140775,1,01 List Students,200,OK,Student Users 1-20,text,true,,5007,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115140822,1,06 Payment Status (auth),200,OK,Student Users 1-2,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115140905,5,02 Create Student,201,Created,Student Users 1-3,text,true,,459,292,20,20,http://localhost:4000/api/students,5,0,1
+1791115140922,1,02 Create Student,201,Created,Student Users 1-5,text,true,,465,298,20,20,http://localhost:4000/api/students,1,0,0
+1791115140943,1,03 View Student by ID,200,OK,Student Users 1-13,text,true,,455,169,20,20,http://localhost:4000/api/students/20250015,1,0,0
+1791115141007,1,01 List Students,200,OK,Student Users 1-18,text,true,,5387,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115141025,4,05 Update Student,200,OK,Student Users 1-4,text,true,,461,233,20,20,http://localhost:4000/api/students/90000101,4,0,0
+1791115136551,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-4,,true,,1392,703,20,20,null,8,4470,0
+1791115141038,0,06 Payment Status (auth),200,OK,Student Users 1-8,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115141235,1,05 Update Student,200,OK,Student Users 1-1,text,true,,450,223,20,20,http://localhost:4000/api/students/90000102,1,0,0
+1791115136241,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-1,,true,,1351,678,20,20,null,5,4991,1
+1791115141263,1,02 Create Student,201,Created,Student Users 1-11,text,true,,457,290,20,20,http://localhost:4000/api/students,1,0,0
+1791115141318,1,01 List Students,200,OK,Student Users 1-19,text,true,,5572,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115141557,1,06 Payment Status (auth),200,OK,Student Users 1-12,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115141566,2,04 View Created Student,200,OK,Student Users 1-7,text,true,,451,169,20,20,http://localhost:4000/api/students/90000106,2,0,1
+1791115141646,1,03 View Student by ID,200,OK,Student Users 1-17,text,true,,459,169,20,20,http://localhost:4000/api/students/20250016,1,0,0
+1791115141672,5,02 Create Student,201,Created,Student Users 1-10,text,true,,459,292,20,20,http://localhost:4000/api/students,5,0,0
+1791115141754,4,05 Update Student,200,OK,Student Users 1-6,text,true,,450,221,20,20,http://localhost:4000/api/students/90000103,4,0,1
+1791115137129,43,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-6,,true,,1363,682,20,20,null,43,4587,1
+1791115141808,1,01 List Students,200,OK,Student Users 1-16,text,true,,5755,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115141924,1,03 View Student by ID,200,OK,Student Users 1-20,text,true,,456,169,20,20,http://localhost:4000/api/students/20250018,1,0,0
+1791115141987,0,06 Payment Status (auth),200,OK,Student Users 1-13,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115141991,0,04 View Created Student,200,OK,Student Users 1-3,text,true,,454,169,20,20,http://localhost:4000/api/students/90000105,0,0,0
+1791115142019,4,02 Create Student,201,Created,Student Users 1-15,text,true,,464,297,20,20,http://localhost:4000/api/students,4,0,0
+1791115142079,1,02 Create Student,201,Created,Student Users 1-2,text,true,,457,290,20,20,http://localhost:4000/api/students,1,0,0
+1791115142270,2,02 Create Student,201,Created,Student Users 1-9,text,true,,468,301,20,20,http://localhost:4000/api/students,2,0,1
+1791115142308,1,07 Delete Student,204,No Content,Student Users 1-4,,true,,166,191,20,20,http://localhost:4000/api/students/90000101,0,0,0
+1791115142348,0,04 View Created Student,200,OK,Student Users 1-14,text,true,,461,169,20,20,http://localhost:4000/api/students/90000104,0,0,0
+1791115142485,4,02 Create Student,201,Created,Student Users 1-8,text,true,,462,295,20,20,http://localhost:4000/api/students,4,0,1
+1791115142598,0,03 View Student by ID,200,OK,Student Users 1-18,text,true,,458,169,20,20,http://localhost:4000/api/students/20250017,0,0,0
+1791115142656,1,04 View Created Student,200,OK,Student Users 1-5,text,true,,460,169,20,20,http://localhost:4000/api/students/90000108,1,0,0
+1791115142738,1,04 View Created Student,200,OK,Student Users 1-10,text,true,,454,169,20,20,http://localhost:4000/api/students/90000109,1,0,1
+1791115142807,4,07 Delete Student,204,No Content,Student Users 1-1,,true,,166,191,20,20,http://localhost:4000/api/students/90000102,0,0,0
+1791115142844,2,04 View Created Student,200,OK,Student Users 1-11,text,true,,452,169,20,20,http://localhost:4000/api/students/90000107,2,0,0
+1791115143110,1,06 Payment Status (auth),200,OK,Student Users 1-17,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115143144,3,05 Update Student,200,OK,Student Users 1-3,text,true,,459,228,20,20,http://localhost:4000/api/students/90000105,3,0,0
+1791115139238,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-3,,true,,1372,689,20,20,null,8,3900,1
+1791115143172,1,02 Create Student,201,Created,Student Users 1-12,text,true,,453,286,20,20,http://localhost:4000/api/students,1,0,0
+1791115143191,1,03 View Student by ID,200,OK,Student Users 1-19,text,true,,459,169,20,20,http://localhost:4000/api/students/20250020,1,0,0
+1791115143201,0,03 View Student by ID,200,OK,Student Users 1-16,text,true,,454,169,20,20,http://localhost:4000/api/students/20250019,0,0,0
+1791115143208,1,02 Create Student,201,Created,Student Users 1-13,text,true,,459,292,20,20,http://localhost:4000/api/students,1,0,0
+1791115143219,0,06 Payment Status (auth),200,OK,Student Users 1-20,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115143360,4,05 Update Student,200,OK,Student Users 1-7,text,true,,453,223,20,20,http://localhost:4000/api/students/90000106,4,0,0
+1791115139149,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-7,,true,,1360,681,20,20,null,7,4207,1
+1791115143620,3,07 Delete Student,204,No Content,Student Users 1-6,,true,,166,191,20,20,http://localhost:4000/api/students/90000103,0,0,0
+1791115143644,1,04 View Created Student,200,OK,Student Users 1-8,text,true,,457,169,20,20,http://localhost:4000/api/students/90000112,1,0,0
+1791115143700,1,04 View Created Student,200,OK,Student Users 1-2,text,true,,452,169,20,20,http://localhost:4000/api/students/90000111,1,0,0
+1791115143708,0,06 Payment Status (auth),200,OK,Student Users 1-18,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115143754,1,01 List Students,200,OK,Student Users 1-4,text,true,,6333,160,20,20,http://localhost:4000/api/students,1,0,0
+1791115143766,1,05 Update Student,200,OK,Student Users 1-14,text,true,,454,226,20,20,http://localhost:4000/api/students/90000104,1,0,0
+1791115138733,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-14,,true,,1381,694,20,20,null,4,5029,0
+1791115143858,3,04 View Created Student,200,OK,Student Users 1-15,text,true,,459,169,20,20,http://localhost:4000/api/students/90000110,3,0,0
+1791115143985,1,04 View Created Student,200,OK,Student Users 1-9,text,true,,463,169,20,20,http://localhost:4000/api/students/90000113,1,0,0
+1791115144056,2,01 List Students,200,OK,Student Users 1-1,text,true,,6326,160,20,20,http://localhost:4000/api/students,2,0,0
+1791115144056,5,05 Update Student,200,OK,Student Users 1-10,text,true,,456,228,20,20,http://localhost:4000/api/students/90000109,5,0,0
+1791115140407,11,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-10,,true,,1369,689,20,20,null,11,3642,1
+1791115144258,9,07 Delete Student,204,No Content,Student Users 1-3,,true,,166,191,20,20,http://localhost:4000/api/students/90000105,0,0,0
+1791115144284,0,04 View Created Student,200,OK,Student Users 1-13,text,true,,454,169,20,20,http://localhost:4000/api/students/90000115,0,0,0
+1791115144399,4,05 Update Student,200,OK,Student Users 1-11,text,true,,454,228,20,20,http://localhost:4000/api/students/90000107,4,0,1
+1791115140158,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-11,,true,,1363,687,20,20,null,7,4237,1
+1791115144496,1,02 Create Student,201,Created,Student Users 1-17,text,true,,466,299,20,20,http://localhost:4000/api/students,1,0,0
+1791115144552,1,06 Payment Status (auth),200,OK,Student Users 1-19,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,1,0,0
+1791115144611,1,05 Update Student,200,OK,Student Users 1-5,text,true,,467,235,20,20,http://localhost:4000/api/students/90000108,1,0,0
+1791115139516,3,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-5,,true,,1392,702,20,20,null,3,5092,0
+1791115144614,1,04 View Created Student,200,OK,Student Users 1-12,text,true,,448,169,20,20,http://localhost:4000/api/students/90000114,1,0,1
+1791115144961,4,05 Update Student,200,OK,Student Users 1-2,text,true,,450,221,20,20,http://localhost:4000/api/students/90000111,4,0,0
+1791115140823,6,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-2,,true,,1359,680,20,20,null,6,4135,0
+1791115145072,3,07 Delete Student,204,No Content,Student Users 1-7,,true,,166,191,20,20,http://localhost:4000/api/students/90000106,0,0,0
+1791115145076,1,07 Delete Student,204,No Content,Student Users 1-10,,true,,166,191,20,20,http://localhost:4000/api/students/90000109,0,0,0
+1791115145088,2,02 Create Student,201,Created,Student Users 1-20,text,true,,456,289,20,20,http://localhost:4000/api/students,2,0,0
+1791115145102,1,02 Create Student,201,Created,Student Users 1-18,text,true,,459,292,20,20,http://localhost:4000/api/students,1,0,0
+1791115145155,0,06 Payment Status (auth),200,OK,Student Users 1-16,text,true,,269,238,20,20,http://localhost:4000/api/payment/status,0,0,0
+1791115145198,5,07 Delete Student,204,No Content,Student Users 1-14,,true,,166,191,20,20,http://localhost:4000/api/students/90000104,0,0,1
+1791115145310,3,05 Update Student,200,OK,Student Users 1-8,text,true,,454,225,19,19,http://localhost:4000/api/students/90000112,3,0,0
+1791115141038,8,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-8,,true,,1373,689,19,19,null,8,4266,1
+1791115145358,1,03 View Student by ID,200,OK,Student Users 1-4,text,true,,455,169,19,19,http://localhost:4000/api/students/20250001,1,0,0
+1791115145466,1,01 List Students,200,OK,Student Users 1-6,text,true,,6143,160,19,19,http://localhost:4000/api/students,1,0,0
+1791115145478,1,03 View Student by ID,200,OK,Student Users 1-1,text,true,,455,169,18,18,http://localhost:4000/api/students/20250002,1,0,0
+1791115145567,4,05 Update Student,200,OK,Student Users 1-15,text,true,,466,235,18,18,http://localhost:4000/api/students/90000110,4,0,1
+1791115140088,11,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-15,,true,,1389,701,18,18,null,11,5471,1
+1791115145874,5,05 Update Student,200,OK,Student Users 1-12,text,true,,450,223,18,18,http://localhost:4000/api/students/90000114,5,0,0
+1791115141558,7,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-12,,true,,1351,678,18,18,null,7,4313,1
+1791115145927,2,05 Update Student,200,OK,Student Users 1-13,text,true,,450,221,17,17,http://localhost:4000/api/students/90000115,2,0,1
+1791115141987,3,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-13,,true,,1363,682,17,17,null,3,3938,1
+1791115145955,1,05 Update Student,200,OK,Student Users 1-9,text,true,,461,233,16,16,http://localhost:4000/api/students/90000113,1,0,0
+1791115140755,4,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-9,,true,,1392,703,16,16,null,4,5196,1
+1791115146005,1,07 Delete Student,204,No Content,Student Users 1-5,,true,,166,191,15,15,http://localhost:4000/api/students/90000108,0,0,0
+1791115146085,1,01 List Students,200,OK,Student Users 1-3,text,true,,5946,160,14,14,http://localhost:4000/api/students,1,0,0
+1791115146133,2,04 View Created Student,200,OK,Student Users 1-18,text,true,,454,169,13,13,http://localhost:4000/api/students/90000117,2,0,0
+1791115143708,3,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-18,,true,,913,461,13,13,null,3,2424,0
+1791115146133,4,02 Create Student,201,Created,Student Users 1-19,text,true,,465,298,12,12,http://localhost:4000/api/students,4,0,0
+1791115146139,1,07 Delete Student,204,No Content,Student Users 1-2,,true,,166,191,11,11,http://localhost:4000/api/students/90000111,0,0,0
+1791115146265,4,04 View Created Student,200,OK,Student Users 1-17,text,true,,461,169,10,10,http://localhost:4000/api/students/90000116,4,0,0
+1791115143111,5,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-17,,true,,927,468,10,10,null,5,3153,0
+1791115146344,3,07 Delete Student,204,No Content,Student Users 1-11,,true,,166,191,9,9,http://localhost:4000/api/students/90000107,0,0,0
+1791115146526,1,06 Payment Status (auth),200,OK,Student Users 1-1,text,true,,269,238,8,8,http://localhost:4000/api/payment/status,1,0,0
+1791115146543,1,01 List Students,200,OK,Student Users 1-7,text,true,,5769,160,7,7,http://localhost:4000/api/students,1,0,0
+1791115146589,2,07 Delete Student,204,No Content,Student Users 1-8,,true,,166,191,6,6,http://localhost:4000/api/students/90000112,0,0,0
+1791115146589,2,02 Create Student,201,Created,Student Users 1-16,text,true,,457,290,6,6,http://localhost:4000/api/students,2,0,0
+1791115146675,1,04 View Created Student,200,OK,Student Users 1-20,text,true,,451,169,4,4,http://localhost:4000/api/students/90000118,1,0,0
+1791115143219,3,TX Create and Verify Student,200,"Number of samples in transaction : 3, number of failing samples : 0",Student Users 1-20,,true,,907,458,4,4,null,3,3454,0
+1791115146732,2,01 List Students,200,OK,Student Users 1-10,text,true,,5767,160,3,3,http://localhost:4000/api/students,2,0,0
+1791115146862,1,06 Payment Status (auth),200,OK,Student Users 1-4,text,true,,269,238,2,2,http://localhost:4000/api/payment/status,1,0,0
+1791115146911,3,07 Delete Student,204,No Content,Student Users 1-15,,true,,166,191,1,1,http://localhost:4000/api/students/90000110,0,0,0

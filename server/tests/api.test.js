@@ -2,16 +2,48 @@
  * Integration tests for the Express API, covering the end-to-end flows behind
  * TC13, TC23-TC25, TC30-TC33 (login, payment verification/receipt, duplicate
  * module registration, and results access control).
+ *
+ * Student records live in Postgres, so - like db.integration.test.js - this
+ * suite runs against a real Testcontainers-managed database rather than a
+ * mock. Transactional/session state (payments, registrations, results,
+ * tokens) stays in the in-memory store from earlier labs, reset per test.
  */
+const { PostgreSqlContainer } = require("@testcontainers/postgresql");
 const request = require("supertest");
 const { createApp } = require("../src/app");
 const { resetStore } = require("../src/store");
+const { createPool, initSchema, resetSchema } = require("../src/db");
+const studentRepository = require("../src/studentRepository");
 
+jest.setTimeout(120000); // container pull/start can be slow on first run
+
+let container;
+let pool;
 let app;
 
-beforeEach(() => {
+const SEED_STUDENTS = [
+  { studentId: "02240353", password: "Cst2026a", name: "Pema Losel Maurer" },
+  { studentId: "87654321", password: "Bhutan2026Cs", name: "Demo Student" },
+];
+
+beforeAll(async () => {
+  container = await new PostgreSqlContainer("postgres:16-alpine").start();
+  pool = createPool(container.getConnectionUri());
+  await initSchema(pool);
+  app = createApp(pool);
+});
+
+afterAll(async () => {
+  await pool.end();
+  await container.stop();
+});
+
+beforeEach(async () => {
   resetStore();
-  app = createApp();
+  await resetSchema(pool);
+  for (const student of SEED_STUDENTS) {
+    await studentRepository.createStudent(pool, student);
+  }
 });
 
 async function login(studentId = "02240353", password = "Cst2026a") {

@@ -10,6 +10,7 @@ jobs:
   server-tests:
     name: Backend unit & integration tests
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: server
@@ -22,10 +23,20 @@ jobs:
           cache: "npm"
           cache-dependency-path: server/package-lock.json
 
+      - name: Verify Docker is available (required by Testcontainers)
+        run: docker info
+
       - run: npm ci
+
+      # Runs the full Jest suite. api.test.js and db.integration.test.js each
+      # use Testcontainers to start a real PostgreSQL container (student
+      # records live in Postgres - see src/db.js / src/studentRepository.js).
+      # ubuntu-latest ships with Docker pre-installed, so Testcontainers can
+      # talk to it directly.
       - run: npm test
 
   web-build:
+
     name: Frontend build check
     runs-on: ubuntu-latest
     defaults:

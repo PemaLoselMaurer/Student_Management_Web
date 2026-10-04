@@ -1,0 +1,74 @@
+run,load,users,ramp_s,duration_s,think,steady_window_s,label,samples,avg_ms,median_ms,p95_ms,p99_ms,max_ms,error_pct,throughput_per_s
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"01 List Students",27,1.7,2,3,4,4,0.00,0.46
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"02 Create Student",30,3.1,3,5,8,8,0.00,0.51
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"03 View Student by ID",28,1.4,1,2,2,2,0.00,0.48
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"04 View Created Student",29,1.4,1,3,6,6,0.00,0.49
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"05 Update Student",28,3.5,3,5,10,10,0.00,0.48
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"06 Payment Status (auth)",29,1.2,1,3,5,5,0.00,0.49
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"07 Delete Student",26,2.9,3,4,5,5,0.00,0.44
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"TX Create and Verify Student",28,7.9,8,14,14,14,0.00,0.48
+baseline_r1,Baseline,5,5,65,1-2 s,58.9,"ALL requests (excl. TX)",197,2.2,2,5,8,10,0.00,3.35
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"01 List Students",26,1.5,1,2,5,5,0.00,0.45
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"02 Create Student",30,3.7,3,7,8,8,0.00,0.52
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"03 View Student by ID",27,1.7,2,4,4,4,0.00,0.47
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"04 View Created Student",29,1.7,2,3,4,4,0.00,0.50
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"05 Update Student",28,3.4,3,5,5,5,0.00,0.49
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"06 Payment Status (auth)",28,1.0,1,2,3,3,0.00,0.49
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"07 Delete Student",25,3.0,3,5,5,5,0.00,0.43
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"TX Create and Verify Student",27,8.7,8,13,13,13,0.00,0.47
+baseline_r2,Baseline,5,5,65,1-2 s,57.7,"ALL requests (excl. TX)",193,2.3,2,5,7,8,0.00,3.35
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"01 List Students",110,1.6,1,3,8,11,0.00,1.88
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"02 Create Student",111,3.0,3,7,8,9,0.00,1.90
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"03 View Student by ID",112,1.4,1,3,7,8,0.00,1.92
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"04 View Created Student",111,1.7,1,3,3,44,0.00,1.90
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"05 Update Student",112,3.3,3,6,7,8,0.00,1.92
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"06 Payment Status (auth)",108,0.9,1,2,7,8,0.00,1.85
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"07 Delete Student",110,2.7,3,5,6,7,0.00,1.88
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"TX Create and Verify Student",105,7.9,7,12,15,49,0.00,1.80
+moderate_r1,Moderate,20,10,70,1-2 s,58.4,"ALL requests (excl. TX)",774,2.1,1,5,8,44,0.00,13.25
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"01 List Students",108,2.8,1,2,17,145,0.00,1.85
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"02 Create Student",110,3.1,3,5,9,60,0.00,1.89
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"03 View Student by ID",107,1.6,1,3,10,36,0.00,1.83
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"04 View Created Student",114,3.3,1,7,44,124,0.00,1.95
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"05 Update Student",113,4.2,3,8,26,87,0.00,1.94
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"06 Payment Status (auth)",111,1.0,1,2,6,7,0.00,1.90
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"07 Delete Student",112,4.4,3,7,81,91,0.00,1.92
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"TX Create and Verify Student",107,10.6,7,30,89,130,0.00,1.83
+moderate_r2,Moderate,20,10,70,1-2 s,58.3,"ALL requests (excl. TX)",775,2.9,1,5,36,145,0.00,13.29
+higher_r1,Higher,50,20,80,1-2 s,58.5,"01 List Students",277,1.3,1,2,5,12,0.00,4.73
+higher_r1,Higher,50,20,80,1-2 s,58.5,"02 Create Student",278,2.5,2,4,9,138,0.00,4.75
+higher_r1,Higher,50,20,80,1-2 s,58.5,"03 View Student by ID",280,1.0,1,2,6,9,0.00,4.79
+higher_r1,Higher,50,20,80,1-2 s,58.5,"04 View Created Student",276,1.1,1,2,6,7,0.00,4.72
+higher_r1,Higher,50,20,80,1-2 s,58.5,"05 Update Student",280,2.2,2,4,9,15,0.00,4.79
+higher_r1,Higher,50,20,80,1-2 s,58.5,"06 Payment Status (auth)",277,0.7,1,1,7,16,0.00,4.73
+higher_r1,Higher,50,20,80,1-2 s,58.5,"07 Delete Student",275,2.1,2,4,9,27,0.00,4.70
+higher_r1,Higher,50,20,80,1-2 s,58.5,"TX Create and Verify Student",260,5.9,5,9,18,140,0.00,4.44
+higher_r1,Higher,50,20,80,1-2 s,58.5,"ALL requests (excl. TX)",1943,1.6,1,4,7,138,0.00,33.21
+higher_r2,Higher,50,20,80,1-2 s,58.4,"00 Login",1,56.0,56,56,56,56,0.00,0.02
+higher_r2,Higher,50,20,80,1-2 s,58.4,"01 List Students",279,1.5,1,2,5,35,0.00,4.78
+higher_r2,Higher,50,20,80,1-2 s,58.4,"02 Create Student",276,1.9,1,4,5,15,0.00,4.72
+higher_r2,Higher,50,20,80,1-2 s,58.4,"03 View Student by ID",277,1.0,1,2,5,8,0.00,4.74
+higher_r2,Higher,50,20,80,1-2 s,58.4,"04 View Created Student",278,1.5,1,2,8,59,0.00,4.76
+higher_r2,Higher,50,20,80,1-2 s,58.4,"05 Update Student",278,2.4,2,4,17,23,0.00,4.76
+higher_r2,Higher,50,20,80,1-2 s,58.4,"06 Payment Status (auth)",280,0.7,1,1,2,26,0.00,4.79
+higher_r2,Higher,50,20,80,1-2 s,58.4,"07 Delete Student",279,2.1,1,4,5,71,0.00,4.78
+higher_r2,Higher,50,20,80,1-2 s,58.4,"TX Create and Verify Student",265,5.6,5,9,21,66,0.00,4.54
+higher_r2,Higher,50,20,80,1-2 s,58.4,"ALL requests (excl. TX)",1948,1.6,1,4,6,71,0.00,33.34
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"01 List Students",25154,7.0,7,9,13,23,0.00,419.81
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"02 Create Student",25152,6.7,7,9,13,21,0.00,419.78
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"03 View Student by ID",25153,6.7,7,9,13,22,0.00,419.80
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"04 View Created Student",25153,6.4,6,9,13,22,0.00,419.80
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"05 Update Student",25154,10.1,10,13,18,29,0.00,419.81
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"06 Payment Status (auth)",25152,3.5,3,5,7,14,0.00,419.78
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"07 Delete Student",25157,7.0,7,9,13,22,0.00,419.86
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"TX Create and Verify Student",25148,23.2,23,29,38,52,0.00,419.71
+nothink_moderate_r1,Moderate, no think time,20,10,70,0,59.9,"ALL requests (excl. TX)",176075,6.8,7,11,14,29,0.00,2938.65
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"01 List Students",25262,7.0,7,9,13,29,0.00,421.65
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"02 Create Student",25255,6.7,7,9,12,37,0.00,421.53
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"03 View Student by ID",25260,6.7,7,9,13,36,0.00,421.62
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"04 View Created Student",25255,6.3,6,9,13,35,0.00,421.53
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"05 Update Student",25258,9.9,10,13,18,43,0.00,421.58
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"06 Payment Status (auth)",25257,3.5,3,5,7,22,0.00,421.57
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"07 Delete Student",25260,7.0,7,9,13,34,0.00,421.62
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"TX Create and Verify Student",25250,22.9,23,29,38,58,0.00,421.45
+nothink_moderate_r2,Moderate, no think time,20,10,70,0,59.9,"ALL requests (excl. TX)",176807,6.7,7,11,14,43,0.00,2951.11

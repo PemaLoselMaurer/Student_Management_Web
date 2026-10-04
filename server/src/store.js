@@ -1,15 +1,12 @@
 /**
- * In-memory data store for the demo Student Management System.
- * Not persisted - intended for lab/demo purposes. `resetStore()` lets tests
- * start from a clean, deterministic state.
+ * In-memory store for the SMS's transactional/session data (Lab 1-4 SRS).
+ * Student master records themselves now live in Postgres - see db.js and
+ * studentRepository.js - since that's the data this store used to hold.
+ * `resetStore()` lets tests start from a clean, deterministic state.
  */
 
 function seed() {
   return {
-    students: new Map([
-      ["02240353", { studentId: "02240353", password: "Cst2026a", name: "Pema Losel Maurer" }],
-      ["87654321", { studentId: "87654321", password: "Bhutan2026Cs", name: "Demo Student" }],
-    ]),
     sessions: new Map(), // token -> studentId
     payments: new Map(), // studentId -> payment record
     registrations: new Map(), // `${studentId}:${moduleCode}` -> { allowed, message, moduleCode, updatedAt }
