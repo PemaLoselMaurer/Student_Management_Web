@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "CST College Student Management System - Express API (registration, payment verification, results) derived from the SWE302 Lab 1 SRS.",
   "main": "src/server.js",
+  "engines": {
+    "node": ">=22.22"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "node src/server.js",
